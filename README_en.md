@@ -4,7 +4,7 @@
 ## 1.1 Quick Start: Interactive Web App
 Experience the "Magic of Sequences" right now in your browser!
 
-* **[Launch the Interactive App (index_en.html)](index_en.html)**
+* **[Launch the Interactive App (https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**
 * **Try this:** Type these combinations into the coefficient boxes `(a, b)` and Click "OK" to watch how the curves drastically transform from straight lines to oscillations and damping: `(1.9999, 1)`, `(1.99, 1)`, `(1.99, 0.99)`, `(1.98, 0.99)`.
 * **Then, enjoy observing drastic change even with subtle change in the above a or b by the slide bars! Adjust scale if needed.**
 
@@ -21,7 +21,7 @@ While engaging in an extended dialogue with a generative AI for this project, I 
 
 This GitHub repository consists of the following interlinked components. Please refer to the respective files based on your computing environment and level of expertise.
 
-* **[index_en.html](index_en.html)**: An interactive HTML application that allows users to adjust the coefficients of the finite difference equation directly in their browser. It enables visual exploration of how the numerical approximate solution behaves—transitioning from simple harmonic oscillation to damped oscillation and divergence.
+* **[index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**: An interactive HTML application that allows users to adjust the coefficients of the finite difference equation directly in their browser. It enables visual exploration of how the numerical approximate solution behaves—transitioning from simple harmonic oscillation to damped oscillation and divergence.
 
 * **[Magic_of_Sequence_MATLAB_en.mlx (with corresponding Python codes)](Magic_of_Sequence_MATLAB_en.mlx)**: This is the main MATLAB Live Script based on the materials used in the very first class of the first semester for first-year university students. It provides clear explanations, ranging from the "Magic of Sequences" to creating simple 1D and 2D wave propagation animations. Additionally, with the help of generative AI, we have newly added Python code for Google Colab, which can be run on mobile browsers. We also added an accuracy comparison with the fourth-order Runge-Kutta method (verifying energy-conserving properties) for undergraduate students in specialized courses.
 Supposed readers include university students in the first week in the first semester and advanced high school students. It also provides an accessible explanation of how initial value problems correspond to "impulse responses" in digital signal processing. It provides detailed program explanations along with the simulation execution environment, and is directly linked with the MATLAB File Exchange. MATLAB 2022a or later is needed to enjoy this mlx file.
