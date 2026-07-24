@@ -418,14 +418,23 @@ HTML(anim.to_jshtml())
 ## 参考文献および注（References and Notes）
 
 `[1]`: 立命館大学シラバス 理工学部物理科学科「ミクロとマクロの世界」(2016) ※Microsoft Excel を使用していた時代．https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja (2026年7月閲覧)
+
 `[2]`: 同上 (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja) (2026年7月閲覧) ※MATLAB が使えるようになった最初の年度のシラバス．情報処理教室は依然として必要であった．
+
 `[3]`: 同上 (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (2026年7月閲覧) ※コロナ・パンデミック後，全受講生がPCを持つようになり，情報処理教室が不要になった．
+
 `[4]`: 先行研究および公的教材の例: R. V. Jones, Am. J. Phys. 63 (1995) 978. / 鈴木亨, 鈴木久男, 物理教育 44 (1996) 381. / 文部科学省『高等学校情報科「情報Ⅰ」教員研修用教材（第3章 専門的な課題解決とプログラミング）』(2019) pp. 118-123.
+
 `[5]`: [本リポジトリのREADME.md](README.md)
+
 `[6]`: [本リポジトリの，｢数列のマジック｣の大学2～3年生向け種明かし](5_Magic_of_Sequence_Advanced.md)
+
 `[7]`: [本リポジトリの，｢数列のマジック｣が大学で習う何を先取りしているか](6_Magic_of_Sequence_Edu_Significance.md)
+
 `[8]`: [本リポジトリの，筆者が生成AIから学んだ｢数列のマジック｣の歴史的背景](7_Historical_Context_via_AI.md)
+
 `[9]`: MATLABの最新バージョンの基本機能は，パソコンのウェブ・ブラウザ上で使える MATLAB Onlineがあります．ウェブで"MATLAB Online"を検索し，ヒットしたところから使い始めることができます．正規ライセンスを持っていなくても，毎月20時間以内であれば無料で利用可能です．Mathworks社のアカウントを作成する必要はありますが，無料のコースや他の教育資源も利用できます．
+
 `[10]`: [本リポジトリのスマホのブラウザでも｢数列のマジック｣を楽しめるHTMLアプリ](https://ritshiroshio.github.io/Magic_of_Sequences/index.html)
 
 ## 本リポジトリの構成とコンテンツ間連携

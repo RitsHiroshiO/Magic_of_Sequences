@@ -87,11 +87,17 @@ Geminiは｢数列のマジック｣を以下の様にも評価してくれま�
 ## 参考文献と注
 
 `[1]`: E. ハイラー，G. ヴァンナーら 著，三井斌友 監訳 (2007〜2008). *常微分方程式の数値解法 I 基礎編 / II 発展編*, 丸善出版.
+
 `[2]`: 三井斌友，小藤俊幸，斉藤善弘 (2004). *微分方程式による計算科学入門(第二版)*, 共立出版
+
 `[3]`: William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery (2007). *Numerical Recipes: The Art of Scientific Computing 3rd Edition*, Cambridge University Press.
+
 `[4]`: Daam Frenkel, Berend Smit (1996, 2001, 2023). *Understanding Molecular Simulation* (1st, 2nd, 3rd eds.), Academic Press.
+
 `[5]`: Giancarlo Benettin, Antonio Giorgilli (1994). On the Hamiltonian interpolation of near-to-the identity symplectic mappings with application to symplectic integration algorithms, *J. Stat. Phys.*, **74**, 1117-1143.
+
 `[6]`: Ernst Hairer, Christian Lubich, Gerhard Wanner (2006). *Geometric Numerical Integration (Springer Series in Computational Mathematics **31**)*, Springer-Verlag.
+
 `[7]`: Samuel Greydanus, Misko Dzamba, Jason Yosinski (2019). Hamiltonian Neural Networks. In *Advances in Neural Information Processing Systems 32 (NeurIPS 2019)*, **32**, 15,379-15,389.
 
 ## 本リポジトリの構成とコンテンツ間連携
