@@ -16,7 +16,7 @@ Since computing environments and performance changed over time, I asked Gemini t
 | Era | Person / Event | Algorithm / Concept | Computing Environment & Constraints (Approx.) |
 | --- | --- | --- | --- |
 | **1768** | Leonhard Euler | **Euler Method** (Forward difference) | **Paper, pen, and human brain.**<br><br>(No computers. Purely mathematical formulation.) |
-| **Around 1900** | Carl Runge<br><br>Martin Kutta | **Runge-Kutta Method** | **Paper, pen, and log tables.**<br><br>(Dawn of mechanical calculators. Attempt to maximize precision per step.) |
+| **Around 1900** | Carl Runge<br><br>Martin Kutta | **Runge-Kutta Method** (Forward difference)  | **Paper, pen, and log tables.**<br><br>(Dawn of mechanical calculators. Attempt to maximize precision per step.) |
 | **1907** | Carl Störmer | **Störmer Method** (Central difference) | **Gear-driven hand calculators, human computers.**<br><br>(Calculation speed: Human hand. Needed to minimize complex force calculations to 1 per step.) |
 | **1967** | Loup Verlet | **Verlet Method** (Applied to molecular dynamics) | **Early electronic computers (Mainframes).**<br><br>(RAM: tens of KB. Magnetic tape. To overcome extreme memory shortages, methods that keep only past and present states were required.) |
 | **1970s-80s** | Astronomers, Computational Physicists | **Discovery of "Runge-Kutta failure"** in long-term integration | **Supercomputers (e.g., Cray-1).**<br><br>(RAM: several to tens of MB. HDD: hundreds of MB. Millions of calculation steps became possible, making "numerical dissipation" visible for the first time.) |
