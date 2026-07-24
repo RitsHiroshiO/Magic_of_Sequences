@@ -30,14 +30,14 @@
  読み手として，高校生〜大学1年生を想定したものです．初期値問題がデジタル信号処理における「インパルス応答」に対応することについても平易に触れています．
  詳細なプログラム解説とシミュレーションの実行環境を含み，MATLAB File Exchange と直接連携します．MATLAB 2022aもしくはより新しいバージョンが必要です．
 
-* **[4_Magic_of_Sequence_Plain.md](4_Magic_of_Sequence_Plain.md)**: MATLAB環境（ライブエディタ）を有さない閲覧者のために，MATLABコード `Magic_of_Sequence_MATLAB.mlx` の内容（コード，実行画面，数理背景）をテキスト・ブラウザでも読めるMarkdownファイルにしたものです．
+* **[3_Magic_of_Sequence_Plain.md](3_Magic_of_Sequence_Plain.md)**: MATLAB環境（ライブエディタ）を有さない閲覧者のために，MATLABコード `Magic_of_Sequence_MATLAB.mlx` の内容（コード，実行画面，数理背景）をテキスト・ブラウザでも読めるMarkdownファイルにしたものです．
 
-* **[5_Magic_of_Sequence_Advanced.md](5_Magic_of_Sequence_Advanced.md)**: 「数列のマジック」の背景理論や，その理論的厳密な説明や，係数を専門的技術で計算する方法などについて説明してあります．方程式による伝達関数の極配置解析，差分近似による係数導出，および最小二乗法（ARモデルのシステム同定）など，大学2年生以上を対象とした説明です．
-* **[6_Magic_of_Sequence_Edu_Significance.md](6_Magic_of_Sequence_Edu_Significance.md)**: 大学物理カリキュラム（力学，物理数学，波動論）への接続性，およびデジタル画像処理（空間フィルタ）やデータサイエンスへの展開など，読み手として，高校生から高校・大学の教育者，あるいは，大学既卒の社会人までを想定した，読み手別に「数列のマジック」の教育的意義をまとめた案内書です．
+* **[4_Magic_of_Sequence_Advanced.md](4_Magic_of_Sequence_Advanced.md)**: 「数列のマジック」の背景理論や，その理論的厳密な説明や，係数を専門的技術で計算する方法などについて説明してあります．方程式による伝達関数の極配置解析，差分近似による係数導出，および最小二乗法（ARモデルのシステム同定）など，大学2年生以上を対象とした説明です．
+* **[5_Magic_of_Sequence_Edu_Significance.md](5_Magic_of_Sequence_Edu_Significance.md)**: 大学物理カリキュラム（力学，物理数学，波動論）への接続性，およびデジタル画像処理（空間フィルタ）やデータサイエンスへの展開など，読み手として，高校生から高校・大学の教育者，あるいは，大学既卒の社会人までを想定した，読み手別に「数列のマジック」の教育的意義をまとめた案内書です．
 
-* **[7_Historical_Context_via_AI.md](7_Historical_Context_via_AI.md)**: 前進差分法と中心差分法の数値解析の歴史上の位置付けのレビューです．生成AIに助けてもらいながらこれを集約するときに，大学入試で物理を選択せずに理工情報系に入学する学生に，物理学的考え方の面白さと重要さを教えねばならないと感じました．
+* **[6_Historical_Context_via_AI.md](6_Historical_Context_via_AI.md)**: 前進差分法と中心差分法の数値解析の歴史上の位置付けのレビューです．生成AIに助けてもらいながらこれを集約するときに，大学入試で物理を選択せずに理工情報系に入学する学生に，物理学的考え方の面白さと重要さを教えねばならないと感じました．
 
-本リポジトリの教材（index.html や Magic_of_Sequence_MATLAB.mlx）は，制御工学や信号処理における特性方程式の「極とゼロ (Poles and Zeros)」を講義する際の，視覚的で直感的な導入（話の枕）としても活用できます．このトピックに関する高度な理論的背景については 5_Magic_of_Sequence_Advanced.md を，カリキュラム上の教育的意義については 6_Magic_of_Sequence_Edu_Significance.md と7_Historical_Context_via_AI.md をご参照ください．
+本リポジトリの教材（index.html や Magic_of_Sequence_MATLAB.mlx）は，制御工学や信号処理における特性方程式の「極とゼロ (Poles and Zeros)」を講義する際の，視覚的で直感的な導入（話の枕）としても活用できます．このトピックに関する高度な理論的背景については 4_Magic_of_Sequence_Advanced.md を，カリキュラム上の教育的意義については 5_Magic_of_Sequence_Edu_Significance.md と6_Historical_Context_via_AI.md をご参照ください．
 
 ## 1.4 「数列のマジック」が通底する概念の全体像（Illustrative Summary）
 

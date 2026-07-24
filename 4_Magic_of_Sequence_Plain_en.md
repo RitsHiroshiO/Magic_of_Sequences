@@ -1,10 +1,10 @@
-# 4. Basic Explanation: Magic of Sequences (Numerical Experiments of Simple Harmonic and Damped Oscillations)
+# 3. Basic Explanation: Magic of Sequences (Numerical Experiments of Simple Harmonic and Damped Oscillations)
 
 **Table of Contents**
 
-## 4.1 Revealing the "Magic of Sequences": Overview of the MATLAB Live Script (with Python code)
+## 3.1 Revealing the "Magic of Sequences": Overview of the MATLAB Live Script (with Python code)
 
-This document is a Markdown export of the original MATLAB Live Script ([Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)), with minor adjustments, for readers who do not have a MATLAB environment. Please note that while each section in this document perfectly matches the original file, there are two differences: the section numbers here start from "4" (instead of "3" in the original file), and this explanatory paragraph has been added.
+This document is a Markdown export of the original MATLAB Live Script ([Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)), with minor adjustments, for readers who do not have a MATLAB environment. Please note that while each section in this document perfectly matches the original file, there are two differences: the section numbers here start from "3" (instead of "2" in the original file), and this explanatory paragraph has been added.
 
 ### Explanation for first-year university students
 This MATLAB program code (Live Script format) is based on the "Magic of Sequences" teaching materials. It has been used in the first April class for first-year students in the Department of Physical Sciences, College of Science and Engineering, Ritsumeikan University, in the introductory course "Micro and Macro Worlds" `[1, 2, 3]`. By slightly changing the coefficients of the local micro rule ($u_n = a \times u_{n-1} - b \times u_{n-2}$; a three-term recurrence relation), the macroscopic result appears as different curves. This aims to help students smoothly transition from high school "Mathematics", "Physics", and "Information I" to university "Mathematics", "Physics", and "Computer and Information Science and Engineering".
@@ -21,9 +21,9 @@ To use this MATLAB Live Script, you need MATLAB 2022a or a newer version `[9]`. 
 
 As of July 2026, chat-based generative AI is widely available and very useful. By simply providing the "Content of Section 4.2" below, the AI generated the HTML app mentioned above. The translation from MATLAB code to Python code was also instant.
 
-## 4.2 MATLAB and Python Codes for the 5 Basic Patterns of the "Magic of Sequences"
+## 3.2 MATLAB and Python Codes for the 5 Basic Patterns of the "Magic of Sequences"
 
-### 4.2.1 When $a=2, b=1$
+### 3.2.1 When $a=2, b=1$
 The following single line is the MATLAB code for the parameters $a=2, b=1$. When you run it, a straight line going upward to the right (motion with zero acceleration) is drawn on the screen. Here, initial values are u(1)=0, u(2)=1.
 
 ```matlab
@@ -59,15 +59,15 @@ plt.show()
 
 u(1)=0 in MATLAB corresponds to u[0]=0 in Python. Also, `for n=3:1000; ...; end` in MATLAB corresponds to `for n in range(2, n_max):` in Python. Please note the difference in index numbers. The indented line in the Python code above means the process repeats for n from 3 to 999. When copying and pasting, be careful to keep the indentation correct.
 
-### 4.2.2 When parameters $a$ and $b$ are different values
+### 3.2.2 When parameters $a$ and $b$ are different values
 
 Please change the coefficients to $(a,b) = (1.9999, 1)$, $(1.99, 1)$, $(1.99, 0.99)$, or $(1.98, 0.99)$, and run the code. The output will change into various numerical approximate solutions corresponding to physical dynamical systems or electronic circuit responses taught in university, such as sine waves (long-period or short-period simple harmonic oscillations), curves asymptotically approaching a constant value exponentially, or damped oscillations. If you use other combinations, you will notice that the curve characteristics change at certain boundary values. This is easier to observe using the interactive HTML app `[10]` introduced above.
 
-### 4.2.3 When the initial value is 1
+### 3.2.3 When the initial value is 1
 
 If you change the initial value from 0 to 1 and run the code, the sine function changes into a cosine function.
 
-## 4.3 The true nature of the "Magic of Sequences": Finite Difference Method for Differential Equations
+## 3.3 The true nature of the "Magic of Sequences": Finite Difference Method for Differential Equations
 
 The reason a simple recurrence relation draws a sine wave is that it calculates the numerical approximate solution of the equation of motion (differential equation) in physics, which is taught at the university level.
 
@@ -103,9 +103,9 @@ The relationship between the coefficients $a$ and $b$ and the curves is summariz
 | 1.99 | 0.99 | With velocity-proportional resistance (Exponentially approaches 100) |
 | 1.98 | 0.99 | Spring and velocity-proportional resistance (Damped oscillation) |
 
-## 4.4 Comparison with Theoretical Exact Solution (Sine Wave) and Error Evaluation (MATLAB)
+## 3.4 Comparison with Theoretical Exact Solution (Sine Wave) and Error Evaluation (MATLAB)
 
-### 4.4.1 When $(a,b)=(1.9999,1)$, $\Delta t=0.01$, and steps=10000
+### 3.4.1 When $(a,b)=(1.9999,1)$, $\Delta t=0.01$, and steps=10000
 
 Running the following code shows the results of the "Magic of Sequences" (numerical approximate solution by the central difference method; sequence $u$) up to 10,000 steps with red circles, overlapping the theoretical exact solution ($100\sin(t)$) shown with a solid black line.
 
@@ -145,7 +145,7 @@ In this figure, the blue line is the difference between the "Magic of Sequences"
 
 *In introductory physics courses in high school or university, the Euler method (first-order Runge-Kutta method), which is a forward difference method, is often taught. The fourth-order Runge-Kutta method is known to have better accuracy than the Euler method and is always taught in the second year or later in university science and engineering departments. It is typically taught in the second semester of the second year. However, the Euler method requires more explanation than the "Magic of Sequences," and the fourth-order Runge-Kutta method requires even more. Therefore, I did not cover either method in my April class for first-year students. I added the comparison with the Runge-Kutta method because I assume that people with knowledge equivalent to second-year university students or above will read this when it is published on GitHub.*
 
-### 4.4.2 When $(a,b)=(1.99,1)$, $\Delta t=0.1$, and steps=10000
+### 3.4.2 When $(a,b)=(1.99,1)$, $\Delta t=0.1$, and steps=10000
 
 Next, to observe the error when there are more oscillations with the same number of calculations as in Section 4.4.1, we set a larger time step $\Delta t=0.1$ and set $(a,b)=(1.99, 1)$. Then, the solid black line (theoretical exact solution $10\sin(t)$) is drawn so densely that it almost looks filled in solid black.
 
@@ -187,7 +187,7 @@ At this time, the difference (blue line) between the theoretical exact solution 
 
 *When comparing with the fourth-order Runge-Kutta method under the conditions in Section 4.4.2, the fourth-order Runge-Kutta method (orange line) appears to have higher accuracy. However, the difference from the theoretical exact solution continues to increase for both. Will the difference between the numerical approximate solution and the theoretical exact solution increase even further?*
 
-### 4.4.3 Python Code with the Same Algorithm as Section 4.4.2
+### 3.4.3 Python Code with the Same Algorithm as Section 4.4.2
 
 ```python
 import numpy as np
@@ -221,7 +221,7 @@ plt.show()
 
 *The Python code above includes the fourth-order Runge-Kutta method, just like the MATLAB code.*
 
-## 4.5 Accumulation of Phase Errors and the Beating Phenomenon
+## 3.5 Accumulation of Phase Errors and the Beating Phenomenon
 
 I will omit the MATLAB and Python codes, but if you change the number of calculation steps (steps) to 300,000 in the code above and run it, you will see a macroscopic "beating" phenomenon. This is because small phase errors (slight shifts in period or frequency) caused by discretization accumulate over time. It is important to note that the maximum amplitude of the beating, which is 20, is twice the amplitude of the theoretical exact solution $10\sin(t)$. This shows that while the period (frequency) of the numerical approximate solution of the "Magic of Sequences" (central difference) differs slightly from the theoretical exact solution, its amplitude does not decrease even when the number of calculation steps increases.
 
@@ -233,9 +233,9 @@ Computer languages like MATLAB and Python make it easy to code loops that iterat
 
 *[**For undergraduate students in specialized courses**] The curriculum differs depending on the department or university, but you will understand why this happens and how much they differ when you study the characteristic equations for solving differential equations and Euler's formula for complex functions. This is usually taught from basic mathematics (calculus, linear algebra) in the first year to specialized subjects (ordinary differential equations, complex analysis, etc.) in the second year. For details, please refer to the explanation using knowledge from specialized courses `[6]` in this repository. For example, this dramatic change in the sequence's behavior due to changing coefficients visualizes the concept of "Poles and Zeros" in characteristic equations. Please also refer to how numerical array operations like the "Magic of Sequences" are used in the real world `[7]`, and use it as an introduction to your university lectures.*
 
-## 4.6 Extension to Spatial Differences (Wave Equation)
+## 3.6 Extension to Spatial Differences (Wave Equation)
 
-### 4.6.1 One-Dimensional Wave Propagation
+### 3.6.1 One-Dimensional Wave Propagation
 
 The concept of a second-order difference on the time axis (subtracting twice the center value from the sum of two adjacent terms) can be smoothly extended to multiple dimensions on the spatial axis (second-order partial derivative term: Laplacian). By incorporating the spatial second-order difference on the right side, you can easily simulate a 1D wave propagation animation in MATLAB. This allows you to visually observe behaviors in continuum mechanics and wave theory.
 
@@ -317,7 +317,7 @@ for n in range(2, time_steps):
 
 ```
 
-### 4.6.2 Two-Dimensional Wave Propagation
+### 3.6.2 Two-Dimensional Wave Propagation
 
 In the code above, we treated the average of two adjacent points in 1D as the Laplacian. If we change this to the average of four adjacent points in 2D, give an initial value only at the center, and repeat the recurrence relation calculation, we can observe 2D wave propagation. To simulate fixed-end reflection, treat the mass points at the edges the same way as in the 1D case. By running the following MATLAB code and slightly changing the viewing angle, you can easily create the video shown at https://youtu.be/NThFZbwJDh0.
 
@@ -366,7 +366,7 @@ time_steps = 120
 points = 20
 U_n = np.zeros((points, points))
 U_n_1 = np.zeros((points, points))
-U_n_1 = 1.0
+U_n_1[9:11, 9:11] = 1.0
 U_n_2 = np.copy(U_n_1)
 
 X, Y = np.meshgrid(np.arange(points), np.arange(points))
@@ -374,11 +374,11 @@ X, Y = np.meshgrid(np.arange(points), np.arange(points))
 U_history = []
 
 for n in range(time_steps):
-    sum4 = U_n_1 + U_n_1
-    sum4 = sum4 + U_n_1 + U_n_1
-    laplacian = U_n_1 - sum4 / 4.0
+    sum4 = U_n_1[0:18, 1:19] + U_n_1[2:20, 1:19]
+    sum4 = sum4 + U_n_1[1:19, 0:18] + U_n_1[1:19, 2:20]
+    laplacian = U_n_1[1:19, 1:19] - sum4 / 4.0
     
-    U_n = 2 * U_n_1 - U_n_2 - 0.1 * laplacian
+    U_n[1:19, 1:19] = 2 * U_n_1[1:19, 1:19] - U_n_2[1:19, 1:19] - 0.1 * laplacian
     
     U_history.append(np.copy(U_n))
     
@@ -406,11 +406,11 @@ HTML(anim.to_jshtml())
 
 ```
 
-## 4.7 License
+## 3.7 License
 
 The program code and document materials are provided under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
-## 4.8 Citation
+## 3.8 Citation
 
 When citing the programs and explanatory data in this GitHub repository, please refer to the following permanent DOI issued by Zenodo. [DOI insertion position (Insert the temporary DOI issued by Zenodo)]
 
@@ -420,19 +420,19 @@ When citing the programs and explanatory data in this GitHub repository, please 
 `[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) *Syllabus for the first year MATLAB became available. A computer lab was still required.
 `[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) *After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
 `[4]`: Examples of prior research and public teaching materials: R. V. Jones, Am. J. Phys. 63 (1995) 978. / Tohru Suzuki, Hisao Suzuki, Physics Education 44 (1996) 381. / Ministry of Education, Culture, Sports, Science and Technology, "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123.
-`[5]`: [In this repository: README.md](README.md)
-`[6]`: [In this repository: Revealing the "Magic of Sequences" for 2nd and 3rd-year undergraduate students](5_Magic_of_Sequence_Advanced.md)
-`[7]`: [In this repository: What the "Magic of Sequences" anticipates in university studies](6_Magic_of_Sequence_Edu_Significance.md)
-`[8]`: [In this repository: Historical background of the "Magic of Sequences" learned by the author from generative AI](7_Historical_Context_via_AI.md)
+`[5]`: [In this repository: README_en.md](README_en.md)
+`[6]`: [In this repository: Revealing the "Magic of Sequences" for 2nd and 3rd-year undergraduate students](4_Magic_of_Sequence_Advanced_en.md)
+`[7]`: [In this repository: What the "Magic of Sequences" anticipates in university studies](5_Magic_of_Sequence_Edu_Significance_en.md)
+`[8]`: [In this repository: Historical background of the "Magic of Sequences" learned by the author from generative AI](6_Historical_Context_via_AI_en.md)
 `[9]`: The basic features of the latest MATLAB version are available via MATLAB Online, which can be used on a PC web browser. You can search for "MATLAB Online" and start using it. Even without a paid license, you can use it for free up to 20 hours per month. Creating a MathWorks account is required, but you can also use free courses and other educational resources.
-`[10]`: [In this repository: An HTML app to enjoy the "Magic of Sequences" on mobile browsers](https://ritshiroshio.github.io/Magic_of_Sequences/index.html)
+`[10]`: [In this repository: An HTML app to enjoy the "Magic of Sequences" on mobile browsers](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)
 
 ## Repository Structure and Contents
 
-* **[README_en.md](https://www.google.com/search?q=README_en.md)**
-* **[index_en.html](https://www.google.com/search?q=index_en.html)**
-* **[Magic_of_Sequence_MATLAB_en.mlx](https://www.google.com/search?q=Magic_of_Sequence_MATLAB_en.mlx)**
-* **[4_Magic_of_Sequence_Plain_en.md](https://www.google.com/search?q=4_Magic_of_Sequence_Plain_en.md)**
-* **[5_Magic_of_Sequence_Advanced_en.md](https://www.google.com/search?q=5_Magic_of_Sequence_Advanced_en.md)**
-* **[6 How does this magic connect to university topics?](https://www.google.com/search?q=6_Magic_of_Sequence_Edu_Significance_en.md)**
-* **[7 Historical Context Learned from Generative AI](7_Historical_Context_via_AI_en.md)**
+* **[README_en.md](README_en.md)**
+* **[index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**
+* **[Magic_of_Sequence_MATLAB_en.mlx](Magic_of_Sequence_MATLAB_en.mlx)**
+* **[3_Magic_of_Sequence_Plain_en.md](3_Magic_of_Sequence_Plain_en.md)**
+* **[4_Magic_of_Sequence_Advanced_en.md](4_Magic_of_Sequence_Advanced_en.md)**
+* **[5 How does this magic connect to university topics?](5_Magic_of_Sequence_Edu_Significance_en.md)**
+* **[6 Historical Context Learned from Generative AI](6_Historical_Context_via_AI_en.md)**
