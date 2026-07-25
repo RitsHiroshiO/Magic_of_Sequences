@@ -263,7 +263,7 @@ for n=3:100 % Corresponds to "for n in range(2, 100):" in Python.
     f=f-2*U(n-1, 2:19); 
     % Mass points 1 and 20 are fixed at 0 and not calculated.
     U(n, 2:19)=2*U(n-1, 2:19)-U(n-2, 2:19)+0.1*f; % Discretization of the wave equation
-    mesh(U); drawnow 
+    mesh(U); view([-72.52 65.38]); drawnow 
 
 end % for n=3:100 % Python does not require "end", but MATLAB does.
 
@@ -335,7 +335,7 @@ for n=1:120
     laplacian = U_n_1(2:19,2:19) - sum4/4; % Laplacian-like term
     % 2 * Current - Previous - Laplacian * Propagation Speed * Time Step
     U_n(2:19,2:19) = 2*U_n_1(2:19,2:19) - U_n_2(2:19,2:19) - 0.1*laplacian;
-    mesh(U_n);drawnow 
+    mesh(U_n);zlim([-1 1]);view([-40.867 56.536]);drawnow 
     U_n_2 = U_n_1; U_n_1 = U_n; % Move data save locations (Current -> Previous; Next -> Current)
 end % iterate from "for n=1:100" to this "end"
 

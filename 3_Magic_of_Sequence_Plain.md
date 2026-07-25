@@ -255,7 +255,7 @@ for n=3:100 % Pythonの｢for n in range(2, 100):｣に対応します．
     f=f-2*U(n-1, 2:19); 
     % 質点1と質点20は，0に固定するため計算しない．
     U(n, 2:19)=2*U(n-1, 2:19)-U(n-2, 2:19)+0.1*f; % 波動方程式の離散化
-    mesh(U); drawnow 
+    mesh(U); view([-72.52 65.38]); drawnow 
 
 end % for n=3:100 % Pythonにはendが不要ですが，MATLABには要ります．
 
@@ -326,7 +326,7 @@ for n=1:120
     laplacian = U_n_1(2:19,2:19) - sum4/4; % Laplacian的なもの
     % 現在の2倍－直前－Laplacian*伝搬速度*時間刻み
     U_n(2:19,2:19) = 2*U_n_1(2:19,2:19) - U_n_2(2:19,2:19) - 0.1*laplacian;
-    mesh(U_n);drawnow 
+    mesh(U_n);zlim([-1 1]);view([-40.867 56.536]);drawnow 
     U_n_2 = U_n_1; U_n_1 = U_n; % データの保存場所の移動（現在→直前；直後→現在）
 end % iterate from "for n=1:100" to this "end" 
 
@@ -353,7 +353,7 @@ time_steps = 120
 points = 20
 U_n = np.zeros((points, points))
 U_n_1 = np.zeros((points, points))
-U_n_1 = 1.0
+U_n_1[9:11, 9:11] = 1.0
 U_n_2 = np.copy(U_n_1)
 
 X, Y = np.meshgrid(np.arange(points), np.arange(points))
@@ -361,11 +361,11 @@ X, Y = np.meshgrid(np.arange(points), np.arange(points))
 U_history = []
 
 for n in range(time_steps):
-    sum4 = U_n_1 + U_n_1
-    sum4 = sum4 + U_n_1 + U_n_1
-    laplacian = U_n_1 - sum4 / 4.0
+    sum4 = U_n_1[0:18, 1:19] + U_n_1[2:20, 1:19]
+    sum4 = sum4 + U_n_1[1:19, 0:18] + U_n_1[1:19, 2:20]
+    laplacian = U_n_1[1:19, 1:19] - sum4 / 4.0
     
-    U_n = 2 * U_n_1 - U_n_2 - 0.1 * laplacian
+    U_n[1:19, 1:19] = 2 * U_n_1[1:19, 1:19] - U_n_2[1:19, 1:19] - 0.1 * laplacian
     
     U_history.append(np.copy(U_n))
     
@@ -414,11 +414,11 @@ HTML(anim.to_jshtml())
 
 `[5]`: [本リポジトリのREADME.md](README.md)
 
-`[6]`: [本リポジトリの，｢数列のマジック｣の大学2～3年生向け種明かし](https://www.google.com/search?q=5_Magic_of_Sequence_Advanced.md)
+`[6]`: [本リポジトリの，｢数列のマジック｣の大学2～3年生向け種明かし](4_Magic_of_Sequence_Advanced.md)
 
-`[7]`: [本リポジトリの，｢数列のマジック｣が大学で習う何を先取りしているか](https://www.google.com/search?q=6_Magic_of_Sequence_Edu_Significance.md)
+`[7]`: [本リポジトリの，｢数列のマジック｣が大学で習う何を先取りしているか](5_Magic_of_Sequence_Edu_Significance.md)
 
-`[8]`: [本リポジトリの，筆者が生成AIから学んだ｢数列のマジック｣の歴史的背景](https://www.google.com/search?q=7_Historical_Context_via_AI.md)
+`[8]`: [本リポジトリの，筆者が生成AIから学んだ｢数列のマジック｣の歴史的背景](6_Historical_Context_via_AI.md)
 
 `[9]`: MATLABの最新バージョンの基本機能は，パソコンのウェブ・ブラウザ上で使える MATLAB Onlineがあります．ウェブで"MATLAB Online"を検索し，ヒットしたところから使い始めることができます．正規ライセンスを持っていなくても，毎月20時間以内であれば無料で利用可能です．Mathworks社のアカウントを作成する必要はありますが，無料のコースや他の教育資源も利用できます．
 
