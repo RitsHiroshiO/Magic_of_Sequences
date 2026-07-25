@@ -60,7 +60,7 @@ Therefore, Greydanus et al. announced **Hamiltonian Neural Networks (HNN)** `[7]
 
 ## 6.4 Conclusion
 
-I have always enjoyed finding physical laws in 1D and multi-dimensional numerical data arrays from natural phenomena on Earth. To share this excitement with first-year university students in April, I came up with the "Magic of Sequences." After retiring and interacting with generative AI, I realized that comparing the Euler and Runge-Kutta methods—which I previously avoided as "too difficult for first-year students"—actually leads to very interesting lessons.
+I have always enjoyed finding physical laws in 1D and multi-dimensional numerical data arrays from natural phenomena on Earth. To share this excitement with first-year university students in the first month in the first semester, I came up with the "Magic of Sequences." After retiring and interacting with generative AI, I realized that comparing the Euler and Runge-Kutta methods—which I previously avoided as "too difficult for first-year students"—actually leads to very interesting lessons.
 
 The mathematical proof of the energy-preserving nature of the central difference (Störmer-Verlet) method is written in several Japanese and foreign numerical analysis textbooks.
 However, the HNN paper by Greydanus et al. does not mention the 100-year history starting from Störmer (Table 7.2). It is written for machine learning experts (AI engineers), explaining technical formulas and AI graph structures. Gemini explained this complex content so that I could understand it, and even included it in Table 7.2.
@@ -106,8 +106,6 @@ If you use the programs or data in this GitHub repository, please refer to the f
 `[7]`: Samuel Greydanus, Misko Dzamba, Jason Yosinski (2019). Hamiltonian Neural Networks. In *Advances in Neural Information Processing Systems 32 (NeurIPS 2019)*, **32**, 15,379-15,389.
 
 ## Repository Structure and Links
-
-* **[README_en.md](README_en.md)**
 
 * **[README_en.md](README_en.md)**
 * **[index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**

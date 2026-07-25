@@ -1,5 +1,5 @@
 # 1. Magic of Sequences: Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
-[日本語版](README.md)
+[｢数列のマジック｢｣ README 日本語版](README.md)
 
 ## 1.1 Quick Start: Interactive Web App
 Experience the "Magic of Sequences" right now in your browser!

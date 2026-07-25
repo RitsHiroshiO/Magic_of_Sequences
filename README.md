@@ -1,5 +1,8 @@
 # 1. 数列のマジック: 単純な漸化式から始まる数物情報科学のオープン教育リソース
-[English version](README_en.md)
+
+* Magic of Sequence [English version README](README_en.md)
+* Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
+* This GitHub repository provides the programming codes and instructional materials for "Magic of Sequences," an open educational resource designed to seamlessly connect high school mathematics (recurrence relations) with foundational university-level physics, data science, digital signal processing, and AI technologies.
 
 ## 1.1 まずは「数列のマジック」をウェブ・ブラウザでお楽しみください．
 

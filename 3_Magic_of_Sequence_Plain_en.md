@@ -253,7 +253,8 @@ You are changing the equation of motion (differential equation) from $\frac{d^2U
 figure
 U=zeros(100,20); % Allocate space to calculate 100 time steps for 20 mass points
 U(1,10:11)=1; U(2,10:11)=1; % Set the displacement of mass points 10 and 11 to 1 for the first and next time steps
-% In Python Colab, this is written as "U[0, 9:11] = 1" and "U[1, 9:11] = 1". This is a major difference in Python. The same applies to the array range specification below.
+% In Python Colab, this is written as "U[0, 9:11] = 1" and "U[1, 9:11] = 1". 
+% This is a major difference in Python. The same applies to the array range specification below.
 
 for n=3:100 % Corresponds to "for n in range(2, 100):" in Python. 
 
@@ -417,14 +418,22 @@ When citing the programs and explanatory data in this GitHub repository, please 
 ## References and Notes
 
 `[1]`: Syllabus of Ritsumeikan University, Department of Physical Sciences, "Micro and Macro Worlds" (2016) *During the era of using Microsoft Excel. https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja (Accessed July 2026)
+
 `[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) *Syllabus for the first year MATLAB became available. A computer lab was still required.
+
 `[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) *After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
 `[4]`: Examples of prior research and public teaching materials: R. V. Jones, Am. J. Phys. 63 (1995) 978. / Tohru Suzuki, Hisao Suzuki, Physics Education 44 (1996) 381. / Ministry of Education, Culture, Sports, Science and Technology, "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123.
+
 `[5]`: [In this repository: README_en.md](README_en.md)
+
 `[6]`: [In this repository: Revealing the "Magic of Sequences" for 2nd and 3rd-year undergraduate students](4_Magic_of_Sequence_Advanced_en.md)
+
 `[7]`: [In this repository: What the "Magic of Sequences" anticipates in university studies](5_Magic_of_Sequence_Edu_Significance_en.md)
+
 `[8]`: [In this repository: Historical background of the "Magic of Sequences" learned by the author from generative AI](6_Historical_Context_via_AI_en.md)
+
 `[9]`: The basic features of the latest MATLAB version are available via MATLAB Online, which can be used on a PC web browser. You can search for "MATLAB Online" and start using it. Even without a paid license, you can use it for free up to 20 hours per month. Creating a MathWorks account is required, but you can also use free courses and other educational resources.
+
 `[10]`: [In this repository: An HTML app to enjoy the "Magic of Sequences" on mobile browsers](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)
 
 ## Repository Structure and Contents
