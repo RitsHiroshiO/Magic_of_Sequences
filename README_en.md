@@ -5,7 +5,7 @@
 Experience the "Magic of Sequences" right now in your browser!
 
 * **[Launch the Interactive App (https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**
-* **Try this:** Type these combinations into the coefficient boxes `(a, b)` and Click "OK" to watch how the curves drastically transform from straight lines to oscillations and damping: `(1.9999, 1)`, `(1.99, 1)`, `(1.99, 0.99)`, `(1.98, 0.99)`.
+* **Try this:** Pick (a,b) with buttons  `(1.9999, 1)`, `(1.99, 1)`, `(1.99, 0.99)`, `(1.98, 0.99)`. Enjoy watching how the curves drastically transform from straight lines to oscillations and damping.
 * **Then, enjoy observing drastic change even with subtle change in the above a or b by the slide bars! Adjust scale if needed.**
 
 ## 1.2 Project Overview & Educational Vision
