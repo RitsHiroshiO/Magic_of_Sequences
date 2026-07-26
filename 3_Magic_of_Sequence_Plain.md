@@ -30,6 +30,8 @@ clear; a=2; b=1; u(1)=0; u(2)=1; for n=3:1000; u(n)=u(n-1)*a - u(n-2)*b; end; pl
 
 ```
 
+![Figure 1 Magic of Sequences, (a,b)=(2,1)](Figure1.png)
+
 *Figure 1: ｢数列のマジック｣(a,b)=(2,1)の場合*
 
 以下のPythonコードは，上のMATLABコードに対応するものです．
@@ -118,6 +120,8 @@ plot(u, 'ro'); hold on; plot(y, 'k'); hold off
 
 ```
 
+![Figure 2 Numerical and analytical solutions (Short-term)](Figure2.png)
+
 *Figure 2: 理論厳密解との比較（短期間）*
 
 ```matlab
@@ -130,6 +134,8 @@ plot(u-y); hold on; plot(y2-y)
 
 
 ```
+
+![Figure 3 Difference between the solutions (Short-term)](Figure3.png)
 
 *Figure 3: 両解の差（短期間）*
 
@@ -160,6 +166,8 @@ plot(u, 'ro'); hold on; plot(y, 'k');
 
 ```
 
+![Figure 4 Numerical and analytical solutions (Long-term)](Figure4.png)
+
 *Figure 4: 両解の比較（長期間) (time step $\Delta t=0.1$).*
 
 * **MATLAB**
@@ -171,6 +179,8 @@ hold on; plot(y2-y)
 
 
 ```
+
+![Figure 5 Numerical and analytical solutions (Long-term)](Figure5.png)
 
 *Figure 5: 両解の差（長期間）*
 
@@ -221,6 +231,9 @@ MATLABコードもPythonコードも省略しますが，上に示したコー�
 
 MATLABやPythonなどの計算機言語では，表計算ソフト（Excel等）で困難であった多数回のループ演算を容易にコーディングできるため，数値近似解が内包する限界（離散化モデルの限界）を実感できます．
 
+
+![Figure 6 Macroscopic "beating" phenomenon (Long-term)](Figure6_en.png)
+
 *Figure 6: 30万回時間発展を計算しても振幅が小さくならない（左）が，うなり現象が見える（右）*
 
 *【**大学専門課程の学生の皆さん向け**】学部や大学によってカリキュラムが異なりますが，なぜそうなるか，また，どれだけ異なるかは，主に大学1年生の基礎数学（微分積分，線形代数）から2年生の専門科目（常微分方程式，複素関数論など）にかけて，微分方程式の解の特性方程式や複素関数のオイラーの公式を学べば，理解できるようになります．詳細は，本リポジトリの専門課程で習うことを使った説明 `[6]`を参照して下さい．たとえば，この係数変化による数列の劇的な振る舞いの変化は，大学専門課程における特性方程式の「極とゼロ (Poles and Zeros)」の概念そのものを視覚化しています．また，｢数列のマジック｣的数値配列の演算が実際にどう使われているか`[7]`を併せてご参照いただき，大学での講義の導入としてご活用ください．*
@@ -261,6 +274,8 @@ end % for n=3:100 % Pythonにはendが不要ですが，MATLABには要ります
 
 
 ```
+
+![Figure 7 1D Wave Propagation with MATLAB Live Script animation tools](Figure7.png)
 
 *Figure 7: 1次元の波動伝播のアニメーションの一場面の静止画像*
 
@@ -333,7 +348,11 @@ end % iterate from "for n=1:100" to this "end"
 
 ```
 
+![Figure 8 2D Wave Propagation with MATLAB](Figure8.png)
+
 *Figure 8: MATLABでの2次元の波動伝播のアニメーションの一場面の静止画像*
+
+![Figure 9 2D Wave Propagation with Python](Figure9.png)
 
 *Figure 9: Pythonでの2次元波動伝播動画の静止画スナップショット*
 
