@@ -99,11 +99,11 @@ If you use the programs or data in this GitHub repository, please refer to the f
 
 `[4]`: Daan Frenkel, Berend Smit (1996, 2001, 2023). *Understanding Molecular Simulation* (1st, 2nd, 3rd eds.), Academic Press, and its Google Gemini Deep Research.
 
-`[5]`: Giancarlo Benettin, Antonio Giorgilli (1994). On the Hamiltonian interpolation of near-to-the identity symplectic mappings with application to symplectic integration algorithms, *J. Stat. Phys.*, **74**, 1117-1143.
+`[5]`: [Giancarlo Benettin, Antonio Giorgilli (1994). On the Hamiltonian interpolation of near-to-the identity symplectic mappings with application to symplectic integration algorithms, *J. Stat. Phys.*, **74**, 1117-1143.](https://doi.org/10.1007/BF02188219)
 
 `[6]`: Ernst Hairer, Christian Lubich, Gerhard Wanner (2006). *Geometric Numerical Integration (Springer Series in Computational Mathematics **31**)*, Springer-Verlag.
 
-`[7]`: Samuel Greydanus, Misko Dzamba, Jason Yosinski (2019). Hamiltonian Neural Networks. In *Advances in Neural Information Processing Systems 32 (NeurIPS 2019)*, **32**, 15,379-15,389.
+`[7]`: [Samuel Greydanus, Misko Dzamba, Jason Yosinski (2019). Hamiltonian Neural Networks. In *Advances in Neural Information Processing Systems 32 (NeurIPS 2019)*, **32**, 15,379-15,389.](https://proceedings.neurips.cc/paper_files/paper/2019/file/26cd8ecadce0d4efd6cc8a8725cbd1f8-Paper.pdf)
 
 ## Repository Structure and Links
 

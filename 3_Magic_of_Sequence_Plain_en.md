@@ -422,7 +422,7 @@ When citing the programs and explanatory data in this GitHub repository, please 
 `[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) *Syllabus for the first year MATLAB became available. A computer lab was still required.
 
 `[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) *After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
-`[4]`: Examples of prior research and public teaching materials: R. V. Jones, Am. J. Phys. 63 (1995) 978. / Tohru Suzuki, Hisao Suzuki, Physics Education 44 (1996) 381. / Ministry of Education, Culture, Sports, Science and Technology, "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123.
+`[4]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [Akihiro OGURA, Journal of the Physics Education Society of Japan 61 (2013) 21](https://doi.org/10.20653/pesj.61.1_21). / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
 
 `[5]`: [In this repository: README_en.md](README_en.md)
 
