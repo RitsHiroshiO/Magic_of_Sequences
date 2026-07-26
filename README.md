@@ -1,4 +1,4 @@
-# 1. 数列のマジック: 単純な漸化式から始まる数物情報科学の教育公開資源
+# 1. 数列のマジック: 単純な漸化式から始まる数物情報科学教育の公開資源
 
 * Magic of Sequence [English version README](README_en.md)
 * Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
