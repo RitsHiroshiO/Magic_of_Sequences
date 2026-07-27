@@ -4,6 +4,10 @@
 * Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
 * This GitHub repository provides the programming codes and instructional materials for "Magic of Sequences," an open educational resource designed to seamlessly connect high school mathematics (recurrence relations) with foundational university-level physics, data science, digital signal processing, and AI technologies.
 
+> While compiling this repository, I realized that the "Magic of Sequences" will **also** help **AI-generation students** develop their ability to notice that even a slight numerical difference can result in a large physical difference. I hope that the "Magic of Sequences" and this open resource will give readers a chance to recognize the importance and appeal of physics again.
+
+> ｢数列のマジック｣は，数値の違いがわずかでも物理的な違いが大きいことがあることに｢気づく｣ことができます．その｢気づく｣力を，**AI世代の学生**に涵養させることにも貢献するであろうと，筆者自身も，本リポジトリをまとめるにあたり，気づくことができました．｢数列のマジック｣および本公開リソースが，**物理学の重要さと面白さ**を再認識していただくきっかけになれば幸いです．
+
 ## 1.1 まずは「数列のマジック」をウェブ・ブラウザでお楽しみください．
 
 * **[index.htmlをブラウザで起動してください](https://ritshiroshio.github.io/Magic_of_Sequences/index.html)**

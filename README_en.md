@@ -1,6 +1,8 @@
 # 1. Magic of Sequences: Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
 [｢数列のマジック｢｣ README 日本語版](README.md)
 
+> While compiling this repository, I realized that the "Magic of Sequences" will also help **AI-generation students** develop their ability **to notice that even a slight numerical difference can result in a large physical difference**. I hope that the "Magic of Sequences" and this open resource will give readers a chance to recognize **the importance and appeal of physics** again.
+
 ## 1.1 Quick Start: Interactive Web App
 Experience the "Magic of Sequences" right now in your browser!
 
