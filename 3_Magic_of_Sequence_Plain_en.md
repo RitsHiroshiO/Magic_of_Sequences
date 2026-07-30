@@ -1,7 +1,5 @@
 # 3. Basic Explanation: Magic of Sequences (Numerical Experiments of Simple Harmonic and Damped Oscillations)
 
-**Table of Contents**
-
 ## 3.1 Revealing the "Magic of Sequences": Overview of the MATLAB Live Script (with Python code)
 
 This document is a Markdown export of the original MATLAB Live Script ([Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)), with minor adjustments, for readers who do not have a MATLAB environment. Please note that while each section in this document perfectly matches the original file, there are two differences: the section numbers here start from "3" (instead of "2" in the original file), and this explanatory paragraph has been added.
@@ -73,9 +71,9 @@ The reason a simple recurrence relation draws a sine wave is that it calculates 
 
 Consider a harmonic oscillator system where a mass of $m=1\text{ kg}$ is connected to a spring with a spring constant $k=1\text{ N/m}$. Let $u$ be the position of the mass. The equation of motion (differential equation) is $\frac{d^2u}{dt^2} + u = 0$. The theoretically exact solutions obtained mathematically are sine waves ($\sin(t)$ or $\cos(t)$). A differential equation is a local rule that describes how the "current" state relates to the "previous and next" states. We discretize this so a computer can process it.
 
-#### Discretization by the Central Difference Method (St√∂rmer-Verlet Method `[8]`)
+#### Discretization by the Central Difference Method (Stè´”rmer-Verlet Method `[8]`)
 
-When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (St√∂rmer-Verlet method) as follows:
+When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (Stè´”rmer-Verlet method) as follows:
 
 $$\frac{d^2u}{dt^2} \approx \frac{(u_{n+1} - u_n)/\Delta t -(u_n-u_{n-1})/\Delta t}  {\Delta t} = \frac{u_{n+1} - 2u_n + u_{n-1}}{\Delta t^2}$$
 
@@ -420,12 +418,16 @@ When citing the programs and explanatory data in this GitHub repository, please 
 
 ## References and Notes
 
-`[1]`: Syllabus of Ritsumeikan University, Department of Physical Sciences, "Micro and Macro Worlds" (2016)  https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja (Accessed July 2026) * During the era of using Microsoft Excel.
+`[1]`: Syllabus of Ritsumeikan University, Department of Physical Sciences, "Micro and Macro Worlds" (2016)  https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja (Accessed July 2026) 
+* During the era of using Microsoft Excel.
 
-`[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) * Syllabus for the first year MATLAB became available. A computer lab was still required.
+`[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) 
+* Syllabus for the first year MATLAB became available. A computer lab was still required.
 
-`[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) * After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
-`[4]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [Akihiro OGURA, Journal of the Physics Education Society of Japan 61 (2013) 21](https://doi.org/10.20653/pesj.61.1_21). / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
+`[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) 
+* After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
+
+`[4]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [Akihiro OGURA, Journal of the Physics Education Society of Japan 61 (2013) 21.](https://doi.org/10.20653/pesj.61.1_21) / [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
 
 `[5]`: [In this repository: README_en.md](README_en.md)
 

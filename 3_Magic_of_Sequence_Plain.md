@@ -145,7 +145,7 @@ plot(u-y); hold on; plot(y2-y)
 
 *大学専門課程の学生の皆さんは，オレンジ色の線（4次のルンゲ-クッタ法；前進差分法と理論厳密解との差）にも注目してください．3.4.1節の条件の場合は，数列のマジックの方が精度が高いことが確認できます．*
 
-* **註記：** 上記のMATLABコードと図は，関数 ode45 の既定の許容誤差で計算した結果です．コードは示しませんが，許容誤差をより厳しく設定すると，オレンジ色の線が横一直線に見えるほど高精度な結果を得ることができます．
+> **註記：** 上記のMATLABコードと図は，関数 ode45 の既定の許容誤差で計算した結果です．コードは示しませんが，許容誤差をより厳しく設定すると，オレンジ色の線が横一直線に見えるほど高精度な結果を得ることができます．
 
 *高校や大学の物理の数値近似解計算の導入教育では，前進差分である1次のルンゲ-クッタ法のオイラー法を教える場合が多いです．4次のルンゲ・クッタ法はオイラー法よりも精度が良いことで知られていて，大学の理工系学部では２年生以上で必ず習います．大学の理系学部では２年生の後期に習うのが典型的です．しかし，オイラー法でも｢数列のマジック｣よりも多くの説明が必要で，4次のルンゲ-クッタ法ではさらに多くの説明が必要なため，筆者の1年生4月の授業では，オイラー法も4次のルンゲ・クッタ法も触れていませんでした．今回GitHubへ公開すると，大学2年生以上の知識をお持ちの方もご覧頂けると想定し，ルンゲ・クッタ法との比較を加筆することにしました．*
 
@@ -234,7 +234,7 @@ MATLABコードもPythonコードも省略しますが，上に示したコー�
 MATLABやPythonなどの計算機言語では，表計算ソフト（Excel等）で困難であった多数回のループ演算を容易にコーディングできるため，数値近似解が内包する限界（離散化モデルの限界）を実感できます．
 
 
-![Figure 6 Macroscopic "beating" phenomenon (Long-term)](Figure6_en.png)
+![Figure 6 Macroscopic "beating" phenomenon (Long-term)](Figure6.png)
 
 *Figure 6: 30万回時間発展を計算しても振幅が小さくならない（左）が，うなり現象が見える（右）*
 
@@ -434,7 +434,7 @@ HTML(anim.to_jshtml())
 
 `[3]`: 同上 (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (2026年7月閲覧) ※コロナ・パンデミック後，全受講生がPCを持つようになり，情報処理教室が不要になった．
 
-`[4]`: 先行研究および公的教材の例: [F.Goldberg, S.Bendall, *Am. J. Phys.* **63** (1995) 978.](https://doi.org/10.1119/1.18085) / [小倉 昭弘, *物理教育* **61** (2013) 21 ](https://doi.org/10.20653/pesj.61.1_21) / [文部科学省 『高等学校情報科「情報 I」教員研修用教材（第3章 コンピュータとプログラミング）』 (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
+`[4]`: 先行研究および公的教材の例: [F.Goldberg, S.Bendall, *Am. J. Phys.* **63** (1995) 978.](https://doi.org/10.1119/1.18085) / [小倉 昭弘, *物理教育* **61** (2013) 21 ](https://doi.org/10.20653/pesj.61.1_21) / [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) / [文部科学省 『高等学校情報科「情報 I」教員研修用教材（第3章 コンピュータとプログラミング）』 (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
 
 `[5]`: [本リポジトリのREADME.md](README.md)
 
