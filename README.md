@@ -2,11 +2,11 @@
 
 * Magic of Sequence [English version README](README_en.md)
 * Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
-* This GitHub repository provides the programming codes and instructional materials for "Magic of Sequences," an open educational resource designed to seamlessly connect high school mathematics (recurrence relations) with foundational university-level physics, data science, digital signal processing, and AI technologies.
+* Modern STEM education, e.g., Caballero & Odden (2024, Nature Physics) emphasizes the urgent need to strengthen student literacy in computation for AI and data science. This GitHub repository provides the programming codes and instructional materials for "Magic of Sequences," an open educational resource designed to seamlessly connect high school mathematics (recurrence relations) with foundational university-level physics, data science, digital signal processing, and AI technologies.
 
 > While compiling this repository, I realized that the "Magic of Sequences" will **also** help **AI-generation students** develop their ability to notice that even a slight numerical difference can result in a large physical difference. I hope that the "Magic of Sequences" and this open resource will give readers a chance to recognize the importance and appeal of physics again.
 
-> ｢数列のマジック｣は，数値の違いがわずかでも物理的な違いが大きいことがあることに｢気づく｣ことができます．その｢気づく｣力を，**AI世代の学生**に涵養させることにも貢献するであろうと，筆者自身も，本リポジトリをまとめるにあたり，気づくことができました．｢数列のマジック｣および本公開リソースが，**物理学の重要さと面白さ**を再認識していただくきっかけになれば幸いです．
+> ｢数列のマジック｣は，数値の違いがわずかでも物理的な違いが大きいことがあることに｢気づく｣ことができます．その｢気づく｣力を，**AI世代の学生**に涵養させることにも貢献するであろうと，筆者自身も，本リポジトリをまとめるにあたり，気づくことができました．｢数列のマジック｣および本公開リソースが，**物理学の重要さと面白さ**を再認識していただくきっかけになれば幸いです．AI・データサイエンスのための計算機リテラシー強化が急務，というCaballero & Odden (2024, Nature Physics) `[1]`のコメントに関係する，ということにも気付きました。
 
 ## 1.1 まずは「数列のマジック」をウェブ・ブラウザでお楽しみください．
 
@@ -14,7 +14,7 @@
 * **係数`(a, b)`の値`(1.9999, 1)`, `(1.99, 1)`, `(1.99, 0.99)`, `(1.98, 0.99)`のボタンをクリックするだけで，数列の漸化式 $u_n = a \times u_{n-1} - b \times u_{n-2}$ が，色々な曲線に急変します．楽しんでください．**
 * **上の全部の係数の組み合わせを楽しんだら，どれかを出発点にして，スライドバーで係数を変え，グラフがどこでどう変わるか楽しんでください．必要な場合はスケール調整してください．**
 
-この「数列のマジック」は，立命館大学理工学部物理科学科の1年生が入学したての4月の最初に，筆者が担当した授業`[1,2,3]`で見せていたものです．
+この「数列のマジック」は，立命館大学理工学部物理科学科の1年生が入学したての4月の最初に，筆者が担当した授業`[2,3,4]`で見せていたものです．
 
 ## 1.2 このリポジトリの概要
 
@@ -22,7 +22,7 @@
 
 本リポジトリのコンテンツをとりまとめた2026年7月現在，生成AIの台頭に伴い，高校での数学・物理・情報I，大学での数学・物理学・デジタルデータの科学や工学の，学び方や教え方が大きく変わりつつあります．入学したての大学1年生にも理解してもらえるレベルのものから，専門的な説明までを用意しました．
 
-本教材は，従来の物理シミュレーション教育で頻繁に用いられる手法`[4]`の詳細な数学的解説を経ずに，シンプルな漸化式の係数をわずかに動かすだけで，異なる曲線に一変する様子を視覚的かつ直感的に学べるように設計されています．
+本教材は，従来の物理シミュレーション教育で頻繁に用いられる手法`[5]`の詳細な数学的解説を経ずに，シンプルな漸化式の係数をわずかに動かすだけで，異なる曲線に一変する様子を視覚的かつ直感的に学べるように設計されています．
 
 本GitHubリポジトリのオープン教育リソースによって，大学の数理・物理・数値と情報処理の，科学と工学が全くのブラックボックスではないと直感していただけるだけでもありがたいですし，大学での学びがブラックボックスの透視力を上げ，自分で設計できる力も涵養してくれると感じていただけるともっとありがたいです．
 
@@ -89,11 +89,13 @@
 
 ## 1.7 参考文献および注（References and Notes）
 
-`[1]`: 立命館大学シラバス理工学部物理科学科「ミクロとマクロの世界」(2016) ※Microsoft Excelを使用していた時代は，1年生が自力で「数列のマジック」をできるようになるまで多くの講義回数が必要であった．[https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja) (2026年7月閲覧)
+`[1]`:  [M.D. Caballero, T.O.B. Odden "Computing in physics education", Nature Physics **20** (2024) 339–341](https://doi.org/10.1038/s41567-023-02371-2) 
 
-`[2]`: 同上 (2018) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja) (2026年7月閲覧) ※この年度からMATLAB が使えるようになったが情報処理教室が必要だった．
+`[2]`: 立命館大学シラバス理工学部物理科学科「ミクロとマクロの世界」(2016) ※Microsoft Excelを使用していた時代は，1年生が自力で「数列のマジック」をできるようになるまで多くの講義回数が必要であった．[https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja) (2026年7月閲覧)
 
-`[3]`: 同上(2023) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja) (2026年7月閲覧) ※コロナ・パンデミック後，全受講生がPCを持つようになり，情報処理教室が不要になった．
+`[3]`: 同上 (2018) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja) (2026年7月閲覧) ※この年度からMATLAB が使えるようになったが情報処理教室が必要だった．
+
+`[4]`: 同上(2023) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja) (2026年7月閲覧) ※コロナ・パンデミック後，全受講生がPCを持つようになり，情報処理教室が不要になった．
 
 
-`[4]`: 先行研究および公的教材の例：[F.Goldberg, S.Bendall, *Am. J. Phys.* **63** (1995) 978.](https://doi.org/10.1119/1.18085) / [小倉 昭弘, *物理教育* **61** (2013) 21 ](https://doi.org/10.20653/pesj.61.1_21). / [文部科学省 『高等学校情報科「情報 I」教員研修用教材（第3章 コンピュータとプログラミング）』 (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
+`[5]`: 先行研究および公的教材の例：[F.Goldberg, S.Bendall, *Am. J. Phys.* **63** (1995) 978.](https://doi.org/10.1119/1.18085) / [小倉 昭弘, *物理教育* **61** (2013) 21.](https://doi.org/10.20653/pesj.61.1_21) / [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) / [文部科学省 『高等学校情報科「情報 I」教員研修用教材（第3章 コンピュータとプログラミング）』 (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).

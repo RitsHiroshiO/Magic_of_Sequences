@@ -13,7 +13,7 @@ Experience the "Magic of Sequences" right now in your browser!
 ## 1.2 Project Overview & Educational Vision
 
 This GitHub repository provides the programming codes and instructional materials for "Magic of Sequences," an open educational resource designed to seamlessly connect high school mathematics (recurrence relations) with foundational university-level physics, data science, digital signal processing, and AI technologies.
-Modern STEM education `[e.g. 1]` emphasizes the urgent need to strengthen student literacy in mathematical foundations for AI and data science. This project provides an introductory curriculum that starts with a simple high school linear recurrence relation and connects it directly to core concepts in university physics (mechanics and wave theory), data science, digital signal processing (DSP), computer graphics (CG), and deep learning. It is designed so that students can learn without detailed mathematical explanations of the forward difference method (Euler method) `[4]`, which is frequently used in introductory computer education.
+Modern STEM education, e.g., Caballero & Odden (2024, Nature Physics)`[1]` emphasizes the urgent need to strengthen student literacy in computational literacy for AI and data science. This GitHub repository provides an introductory curriculum that starts with a simple high school linear recurrence relation and connects it directly to core concepts in university physics (mechanics and wave theory), data science, digital signal processing (DSP), computer graphics (CG), and deep learning. It is designed so that students can learn without detailed mathematical explanations of the forward difference method (Euler method) `[2]`, which is frequently used in introductory computer education.
 
 As Richard Feynman famously noted, *"What I cannot create, I do not understand."* In today's digital era, where generative AI can instantaneously output complex codes, providing students with the experience of building and evaluating models from the absolute ground up is critical. By writing their own loops and observing the accumulation of microscopic errors, students develop the "error-detecting objectivity" and design confidence required in the AI era.
 
@@ -69,22 +69,17 @@ The educational materials in this repository (such as index.html and Magic_of_Se
 
 ```
 
-## 1.5 References and Notes
-
-`[1]`: *AAPT Recommendations for the Undergraduate Physics Laboratory Curriculum* (Report prepared by a Subcommittee of the AAPT Committee on Laboratories) (2014) [https://www.aapt.org/resources/upload/labguidlinesdocument_ebendorsed_nov10.pdf](https://www.aapt.org/resources/upload/labguidlinesdocument_ebendorsed_nov10.pdf) (Accessed July 2026)
-
-## 1.6 License
+## 1.5 License
 
 The programming codes and instructional materials in this repository are provided under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-## 1.7 Citation
+## 1.6 Citation
 
 If you use the programs, data, or instructional materials in this GitHub repository, please cite the following persistent DOI issued by Zenodo:
 [Insert Zenodo DOI here]
 
 ## References
 
-`[1]`: [AAPT Recommendations for the Undergraduate Physics Laboratory Curriculum - Report prepared by a Subcommittee of the AAPT Committee on Laboratories, 2014](https://www.aapt.org/resources/upload/labguidlinesdocument_ebendorsed_nov10.pdf)
+`[1]`: [M.D. Caballero, T.O.B. Odden "Computing in physics education", Nature Physics **20** (2024) 339–341](https://doi.org/10.1038/s41567-023-02371-2) 
 
-
-`[2]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
+`[2]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).

@@ -12,14 +12,14 @@ This MATLAB program code (Live Script format) is based on the "Magic of Sequence
 It is designed so that students can learn without detailed mathematical explanations of the forward difference method (Euler method) `[4]`, which is frequently used in introductory computer education.
 
 ### *Explanation for undergraduate students in specialized courses*
-*Since I taught "Micro and Macro Worlds", I recognized that this "Magic of Sequences" relates to many specialized university courses and can be used to introduce them. When creating this open educational content, I asked a generative AI for help. This resulted in materials such as the correlation diagram in README.md `[5]`, explanations using knowledge from specialized courses `[6]`, and examples of how numerical array operations like the "Magic of Sequences" are used in the real world `[7]`.*
+*Since I taught "Micro and Macro Worlds", I recognized that this "Magic of Sequences" relates to many specialized university courses and can be used to introduce them. When creating this open educational content, I asked a generative AI for help. This resulted in materials such as the correlation diagram in [README_en.md](README_en.md) `[5]`, [explanations using knowledge from specialized courses](4_Magic_of_Sequence_Advanced_en.md) `[6]`, and [examples of how numerical array operations like the "Magic of Sequences" are used in the real world](5_Magic_of_Sequence_Edu_Significance_en.md) `[7]`, [Historical background of the "Magic of Sequences" learned by the author from generative AI](6_Historical_Context_via_AI_en.md) `[8]`.*
 
-*The comparison with the fourth-order Runge-Kutta method `[4]` was not included in the original material for first-year students. I decided to include it now because a generative AI suggested it would be interesting in July 2026. The fourth-order Runge-Kutta method is a high-precision version of the Euler method (first-order Runge-Kutta method), often used in introductory computer education. It is considered a standard high-precision tool for ordinary differential equations in various fields. However, I did not include it for first-year students because it is too difficult to teach in their first month. But the generative AI pointed out that the "Magic of Sequences" has properties that avoid the problems faced by the Runge-Kutta method `[8]`, as shown in the figure in Section 4.7 of this Live Script. Because the computer code for the "Magic of Sequences" is very simple, undergraduate students in specialized courses can use it effectively. It helps when studying the difficulties `[8]` experienced by forward difference and non-energy-conserving methods in fields like molecular dynamics, astronomy, and AI (deep learning), and how those difficulties were avoided. These research fields are different from my own specialty, so I rarely had the chance to overview such recent research. I enjoyed the generative AI's overview capability.*
+*The comparison with the fourth-order Runge-Kutta method `[4]` was not included in the original material for first-year students. I decided to include it now because a generative AI suggested it would be interesting in July 2026. The fourth-order Runge-Kutta method is a high-precision version of the Euler method (first-order Runge-Kutta method), often used in introductory computer education. It is considered a standard high-precision tool for ordinary differential equations in various fields. However, I did not include it for first-year students because it is too difficult to teach in their first month. But the generative AI pointed out that the "Magic of Sequences" has properties that avoid the problems faced by the Runge-Kutta method `[8]`, as shown in Figure 6 in Section 3.5 of this MD file (corresponding to Section 2.5 in MATLAB Live Script). Because the computer code for the "Magic of Sequences" is very simple, undergraduate students in specialized courses can use it effectively. It helps when studying the difficulties `[8]` experienced by forward difference and non-energy-conserving methods in fields like molecular dynamics, astronomy, and AI (deep learning), and how those difficulties were avoided. These research fields are different from my own specialty, so I rarely had the chance to overview such recent research. I enjoyed the generative AI's overview capability.*
 
 ### Required Environment to Enjoy MATLAB Live Script
-To use this MATLAB Live Script, you need MATLAB 2022a or a newer version `[9]`. You also need the MATLAB Live Editor environment `[9]`. While this environment has advanced features, it does not run on mobile browsers on smartphones or tablets. Therefore, this document also provides an interactive HTML app `[10]` that runs in a browser and an approach using Google Colab (Python) that can run on a mobile browser. This allows students to easily run and observe the simulations on their mobile devices.
+To use this MATLAB Live Script, you need MATLAB 2022a or a newer version `[9]`. You also need the MATLAB Live Editor environment `[9]`. While this environment has advanced features, it does not run on mobile browsers on smartphones or tablets. Therefore, this document also provides [an interactive HTML app](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html) `[10]` that runs in a browser and an approach using Google Colab (Python) that can run on a mobile browser. This allows students to easily run and observe the simulations on their mobile devices.
 
-As of July 2026, chat-based generative AI is widely available and very useful. By simply providing the "Content of Section 4.2" below, the AI generated the HTML app mentioned above. The translation from MATLAB code to Python code was also instant.
+As of July 2026, chat-based generative AI is widely available and very useful. By simply providing the "Content of Section 3.2" below, the AI generated the HTML app mentioned above. The translation from MATLAB code to Python code was also instant.
 
 ## 3.2 MATLAB and Python Codes for the 5 Basic Patterns of the "Magic of Sequences"
 
@@ -61,7 +61,7 @@ u(1)=0 in MATLAB corresponds to u[0]=0 in Python. Also, `for n=3:1000; ...; end`
 
 ### 3.2.2 When parameters $a$ and $b$ are different values
 
-Please change the coefficients to $(a,b) = (1.9999, 1)$, $(1.99, 1)$, $(1.99, 0.99)$, or $(1.98, 0.99)$, and run the code. The output will change into various numerical approximate solutions corresponding to physical dynamical systems or electronic circuit responses taught in university, such as sine waves (long-period or short-period simple harmonic oscillations), curves asymptotically approaching a constant value exponentially, or damped oscillations. If you use other combinations, you will notice that the curve characteristics change at certain boundary values. This is easier to observe using the interactive HTML app `[10]` introduced above.
+Please change the coefficients to $(a,b) = (1.9999, 1)$, $(1.99, 1)$, $(1.99, 0.99)$, or $(1.98, 0.99)$, and run the code. The output will change into various numerical approximate solutions corresponding to physical dynamical systems or electronic circuit responses taught in university, such as sine waves (long-period or short-period simple harmonic oscillations), curves asymptotically approaching a constant value exponentially, or damped oscillations. If you use other combinations, you will notice that the curve characteristics change at certain boundary values. This is easier to observe using [the interactive HTML app](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html) `[10]` introduced above.
 
 ### 3.2.3 When the initial value is 1
 
@@ -73,9 +73,9 @@ The reason a simple recurrence relation draws a sine wave is that it calculates 
 
 Consider a harmonic oscillator system where a mass of $m=1\text{ kg}$ is connected to a spring with a spring constant $k=1\text{ N/m}$. Let $u$ be the position of the mass. The equation of motion (differential equation) is $\frac{d^2u}{dt^2} + u = 0$. The theoretically exact solutions obtained mathematically are sine waves ($\sin(t)$ or $\cos(t)$). A differential equation is a local rule that describes how the "current" state relates to the "previous and next" states. We discretize this so a computer can process it.
 
-#### Discretization by the Central Difference Method (StÃ¶rmer-Verlet Method `[8]`)
+#### Discretization by the Central Difference Method (St«Órmer-Verlet Method `[8]`)
 
-When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (StÃ¶rmer-Verlet method) as follows:
+When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (St«Órmer-Verlet method) as follows:
 
 $$\frac{d^2u}{dt^2} \approx \frac{(u_{n+1} - u_n)/\Delta t -(u_n-u_{n-1})/\Delta t}  {\Delta t} = \frac{u_{n+1} - 2u_n + u_{n-1}}{\Delta t^2}$$
 
@@ -141,13 +141,14 @@ In this figure, the blue line is the difference between the "Magic of Sequences"
 
 #### *Supplementary Explanation of the Fourth-Order Runge-Kutta Method [**For undergraduate students in specialized courses**]*
 
-*Undergraduate students in specialized courses should also pay attention to the orange line (fourth-order Runge-Kutta method; the difference between the forward difference method and the theoretical exact solution). Under the conditions in Section 4.4.1, you can confirm that the Magic of Sequences has higher accuracy.*
+*Undergraduate students in specialized courses should also pay attention to the orange line (fourth-order Runge-Kutta method; the difference between the forward difference method and the theoretical exact solution). Under the conditions in Section 3.4.1, you can confirm that the Magic of Sequences has higher accuracy.*
+> **Note**: The MATLAB code and figure above use the default tolerance of the MATLAB function "ode45". If you set a stricter tolerance, you can achieve much higher accuracy, making the orange line completely flat.
 
 *In introductory physics courses in high school or university, the Euler method (first-order Runge-Kutta method), which is a forward difference method, is often taught. The fourth-order Runge-Kutta method is known to have better accuracy than the Euler method and is always taught in the second year or later in university science and engineering departments. It is typically taught in the second semester of the second year. However, the Euler method requires more explanation than the "Magic of Sequences," and the fourth-order Runge-Kutta method requires even more. Therefore, I did not cover either method in my April class for first-year students. I added the comparison with the Runge-Kutta method because I assume that people with knowledge equivalent to second-year university students or above will read this when it is published on GitHub.*
 
 ### 3.4.2 When $(a,b)=(1.99,1)$, $\Delta t=0.1$, and steps=10000
 
-Next, to observe the error when there are more oscillations with the same number of calculations as in Section 4.4.1, we set a larger time step $\Delta t=0.1$ and set $(a,b)=(1.99, 1)$. Then, the solid black line (theoretical exact solution $10\sin(t)$) is drawn so densely that it almost looks filled in solid black.
+Next, to observe the error when there are more oscillations with the same number of calculations as in Section 3.4.1, we set a larger time step $\Delta t=0.1$ and set $(a,b)=(1.99, 1)$. Then, the solid black line (theoretical exact solution $10\sin(t)$) is drawn so densely that it almost looks filled in solid black.
 
 ```matlab
 clear; close all
@@ -185,9 +186,9 @@ At this time, the difference (blue line) between the theoretical exact solution 
 
 #### *Supplementary Explanation of the Fourth-Order Runge-Kutta Method [**For undergraduate students in specialized courses**]*
 
-*When comparing with the fourth-order Runge-Kutta method under the conditions in Section 4.4.2, the fourth-order Runge-Kutta method (orange line) appears to have higher accuracy. However, the difference from the theoretical exact solution continues to increase for both. Will the difference between the numerical approximate solution and the theoretical exact solution increase even further?*
+*When comparing with the fourth-order Runge-Kutta method under the conditions in Section 3.4.2, the fourth-order Runge-Kutta method (orange line) appears to have higher accuracy. However, the difference from the theoretical exact solution continues to increase for both. Will the difference between the numerical approximate solution and the theoretical exact solution increase even further?*
 
-### 3.4.3 Python Code with the Same Algorithm as Section 4.4.2
+### 3.4.3 Python Code with the Same Algorithm as Section 3.4.2
 
 ```python
 import numpy as np
@@ -219,7 +220,7 @@ plt.show()
 
 #### *Supplementary Explanation of the Fourth-Order Runge-Kutta Method [**For undergraduate students in specialized courses**]*
 
-*The Python code above includes the fourth-order Runge-Kutta method, just like the MATLAB code.*
+*The Python code above includes the fourth-order Runge-Kutta method, just like the MATLAB code. This is calculated using the same tolerance level as the MATLAB code above.*
 
 ## 3.5 Accumulation of Phase Errors and the Beating Phenomenon
 
@@ -231,7 +232,9 @@ Computer languages like MATLAB and Python make it easy to code loops that iterat
 
 *Figure 6: Macroscopic "beating" phenomenon emerging from the accumulation of tiny phase errors over time.*
 
-*[**For undergraduate students in specialized courses**] The curriculum differs depending on the department or university, but you will understand why this happens and how much they differ when you study the characteristic equations for solving differential equations and Euler's formula for complex functions. This is usually taught from basic mathematics (calculus, linear algebra) in the first year to specialized subjects (ordinary differential equations, complex analysis, etc.) in the second year. For details, please refer to the explanation using knowledge from specialized courses `[6]` in this repository. For example, this dramatic change in the sequence's behavior due to changing coefficients visualizes the concept of "Poles and Zeros" in characteristic equations. Please also refer to how numerical array operations like the "Magic of Sequences" are used in the real world `[7]`, and use it as an introduction to your university lectures.*
+*[**For undergraduate students in specialized courses**] The curriculum differs depending on the department or university, but you will understand why this happens and how much they differ when you study the characteristic equations for solving differential equations and Euler's formula for complex functions. This is usually taught from basic mathematics (calculus, linear algebra) in the first year to specialized subjects (ordinary differential equations, complex analysis, etc.) in the second year. For details, please refer to [the explanation using knowledge from specialized courses](4_Magic_of_Sequence_Advanced_en.md) `[6]` in this repository. For example, this dramatic change in the sequence's behavior due to changing coefficients visualizes the concept of "Poles and Zeros" in characteristic equations. Please also refer to [how numerical array operations like the "Magic of Sequences" are used in the real world](5_Magic_of_Sequence_Edu_Significance_en.md) `[7]`, and use it as an introduction to your university lectures.*
+
+> **Note:** As in Section 3.4, the figure above intentionally shows the result using the default tolerance of the MATLAB function "ode45" to emphasize the characteristics of forward difference methods. With a stricter tolerance, the orange line would become a completely flat horizontal line due to higher accuracy.
 
 ## 3.6 Extension to Spatial Differences (Wave Equation)
 
@@ -417,11 +420,11 @@ When citing the programs and explanatory data in this GitHub repository, please 
 
 ## References and Notes
 
-`[1]`: Syllabus of Ritsumeikan University, Department of Physical Sciences, "Micro and Macro Worlds" (2016) *During the era of using Microsoft Excel. https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja (Accessed July 2026)
+`[1]`: Syllabus of Ritsumeikan University, Department of Physical Sciences, "Micro and Macro Worlds" (2016)  https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja (Accessed July 2026) * During the era of using Microsoft Excel.
 
-`[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) *Syllabus for the first year MATLAB became available. A computer lab was still required.
+`[2]`: Ibid. (2018) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja (Accessed July 2026) * Syllabus for the first year MATLAB became available. A computer lab was still required.
 
-`[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) *After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
+`[3]`: Ibid. (2023) https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja (Accessed July 2026) * After the COVID-19 pandemic, all students had their own PCs, so a computer lab was no longer necessary.
 `[4]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [Akihiro OGURA, Journal of the Physics Education Society of Japan 61 (2013) 21](https://doi.org/10.20653/pesj.61.1_21). / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
 
 `[5]`: [In this repository: README_en.md](README_en.md)
