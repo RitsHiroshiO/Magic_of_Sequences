@@ -1,5 +1,5 @@
 # 1. Magic of Sequences: Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations
-[｢数列のマジック｢｣ README 日本語版](README.md)
+[｢数列のマジック｣ README 日本語版](README.md)
 
 > While compiling this repository, I realized that the "Magic of Sequences" will also help **AI-generation students** develop their ability **to notice that even a slight numerical difference can result in a large physical difference**. I hope that the "Magic of Sequences" and this open resource will give readers a chance to recognize **the importance and appeal of physics** again.
 
@@ -32,11 +32,11 @@ Supposed readers include university students in the first week in the first seme
 
 * **[4_Magic_of_Sequence_Advanced_en.md](4_Magic_of_Sequence_Advanced_en.md)**: A mathematically rigorous analytical document intended for second-year undergraduates and above. It covers pole placement analysis of transfer functions using characteristic equations, coefficient derivation via finite difference approximation, and system identification of AR models using the method of least squares.
 
-* **[5_Magic_of_Sequence_Edu_Significance_en.md](5_Magic_of_Sequence_Edu_Significance_en.md)**: How does this magic connect to university topics? A tailored guide summarizing the educational value of this model for various audiences, ranging from high school students to university educators. It outlines the model's seamless connection to university physics curricula (mechanics, mathematical physics, wave theory) and its practical applications in digital image processing (spatial filters) and data science.
+* **[5_Magic_of_Sequence_Edu_Significance_en.md](5_Magic_of_Sequence_Edu_Significance_en.md)**: Please read this alongside the conceptual map in Section 1.4, which shows what each thread of "Magic of Sequences" connects to. Please find more details on its educational significance within the university curriculum.
 
 * **[6_Historical_Context_via_AI_en.md](6_Historical_Context_via_AI_en.md)**: A review of the historical positioning of the forward difference and central difference methods in numerical analysis. In compiling this with the help of generative AI, I strongly felt the necessity of conveying the fascination and importance of physical thinking to students who enter STEM programs without having selected physics in their university entrance exams.
 
-The educational materials in this repository (such as index.html and Magic_of_Sequence_MATLAB.mlx) can also be used as a visual and intuitive introduction (an icebreaker) when teaching the concept of "Poles and Zeros" of characteristic equations in control engineering and signal processing. For advanced theoretical background on this topic, please refer to 4_Magic_of_Sequence_Advanced_en.md, and for its educational significance within the curriculum, refer to 5_Magic_of_Sequence_Edu_Significance_en.md and 6_Historical_Context_via_AI_en.md.
+The educational materials in this repository (such as [index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html) and [Magic_of_Sequence_MATLAB_en.mlx](Magic_of_Sequence_MATLAB_en.mlx) or [3_Magic_of_Sequence_Plain_en.md](3_Magic_of_Sequence_Plain_en.md)) can also be used as a visual and intuitive introduction (an icebreaker) when teaching the concept of "Poles and Zeros" of characteristic equations in control engineering and signal processing.
 
 ## 1.4 Conceptual Map: The Recurrence Relation as an Educational Hub
 

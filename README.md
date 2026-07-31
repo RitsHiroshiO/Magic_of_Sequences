@@ -6,7 +6,7 @@
 
 > While compiling this repository, I realized that the "Magic of Sequences" will **also** help **AI-generation students** develop their ability to notice that even a slight numerical difference can result in a large physical difference. I hope that the "Magic of Sequences" and this open resource will give readers a chance to recognize the importance and appeal of physics again.
 
-> ｢数列のマジック｣は，数値の違いがわずかでも物理的な違いが大きいことがあることに｢気づく｣ことができます．その｢気づく｣力を，**AI世代の学生**に涵養させることにも貢献するであろうと，筆者自身も，本リポジトリをまとめるにあたり，気づくことができました．｢数列のマジック｣および本公開リソースが，**物理学の重要さと面白さ**を再認識していただくきっかけになれば幸いです．AI・データサイエンスのための計算機リテラシー強化が急務，というCaballero & Odden (2024, Nature Physics) `[1]`のコメントに関係する，ということにも気付きました。
+> ｢数列のマジック｣は，数値の違いがわずかでも物理的な違いが大きいことがあることに｢気づく｣ことができます．その｢気づく｣力を，**AI世代の学生**に涵養させることにも貢献するであろうと，筆者自身も，本リポジトリをまとめるにあたり，気づくことができました．｢数列のマジック｣および本公開リソースが，**物理学の重要さと面白さ**を再認識していただくきっかけになれば幸いです．AI・データサイエンスのための計算機リテラシー強化が急務，というCaballero & Odden (2024, Nature Physics) `[1]`のコメントに関係する，ということにも気付きました．
 
 ## 1.1 まずは「数列のマジック」をウェブ・ブラウザでお楽しみください．
 
@@ -33,18 +33,19 @@
 本GitHubリポジトリは以下の要素で構成されており，相互に連携しています．閲覧者の環境や専門性に応じて各ファイルを参照してください．
 
 * **[index.html](https://ritshiroshio.github.io/Magic_of_Sequences/index.html)**: 有限差分方程式（Finite Difference Equation）の係数をブラウザ上でインタラクティブに変更し，数値近似解（Numerical Approximate Solution）の挙動の変化（単振動から減衰振動，発散まで）を視覚的に探究できるHTMLアプリケーションです．
-* **[Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)**: 大学1年生の4月の最初の授業で使った受講生用資料をベースにした MATLAB ライブスクリプトの本体です。「数列のマジック」から簡単な1次元・2次元波動伝播のアニメーション作成まで、平易な解説が記載されています。さらに今回、生成AIの助けを借りて、モバイルブラウザからも実行可能な Google Colab用Pythonコード の併記や、大学専門課程向けに 4次ルンゲ・クッタ法との精度比較（エネルギー保存的性質の確認） も新たに加筆しました。
+* **[Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)**: 大学1年生の4月の最初の授業で使った受講生用資料をベースにした MATLAB ライブスクリプトの本体です．「数列のマジック」から簡単な1次元・2次元波動伝播のアニメーション作成まで，平易な解説が記載されています．さらに今回，生成AIの助けを借りて，モバイルブラウザからも実行可能な Google Colab用Pythonコード の併記や，大学専門課程向けに 4次ルンゲ・クッタ法との精度比較（エネルギー保存的性質の確認） も新たに加筆しました．
  読み手として，高校生〜大学1年生を想定したものです．初期値問題がデジタル信号処理における「インパルス応答」に対応することについても平易に触れています．
  詳細なプログラム解説とシミュレーションの実行環境を含み，MATLAB File Exchange と直接連携します．MATLAB 2022aもしくはより新しいバージョンが必要です．
 
 * **[3_Magic_of_Sequence_Plain.md](3_Magic_of_Sequence_Plain.md)**: MATLAB環境（ライブエディタ）を有さない閲覧者のために，MATLABコード `Magic_of_Sequence_MATLAB.mlx` の内容（コード，実行画面，数理背景）をテキスト・ブラウザでも読めるMarkdownファイルにしたものです．
 
-* **[4_Magic_of_Sequence_Advanced.md](4_Magic_of_Sequence_Advanced.md)**: 「数列のマジック」の背景理論や，その理論的厳密な説明や，係数を専門的技術で計算する方法などについて説明してあります．方程式による伝達関数の極配置解析，差分近似による係数導出，および最小二乗法（ARモデルのシステム同定）など，大学2年生以上を対象とした説明です．
-* **[5_Magic_of_Sequence_Edu_Significance.md](5_Magic_of_Sequence_Edu_Significance.md)**: 大学物理カリキュラム（力学，物理数学，波動論）への接続性，およびデジタル画像処理（空間フィルタ）やデータサイエンスへの展開など，読み手として，高校生から高校・大学の教育者，あるいは，大学既卒の社会人までを想定した，読み手別に「数列のマジック」の教育的意義をまとめた案内書です．
+* **[4_Magic_of_Sequence_Advanced.md](4_Magic_of_Sequence_Advanced.md)**: 「数列のマジック」の高度な背景理論や，その理論的厳密な説明や，係数を専門的技術で計算する方法などについて説明してあります．方程式による伝達関数の極配置解析，差分近似による係数導出，および最小二乗法（ARモデルのシステム同定）など，大学2年生以上を対象とした説明です．
+
+* **[5_Magic_of_Sequence_Edu_Significance.md](5_Magic_of_Sequence_Edu_Significance.md)**: 「数列のマジック」が｢何と通底しているか｣は，全体概略像を1.4節の図に示しましたが，ここには，大学カリキュラム上の教育的意義のより詳細をまとめました．ご覧下さい．
 
 * **[6_Historical_Context_via_AI.md](6_Historical_Context_via_AI.md)**: 前進差分法と中心差分法の数値解析の歴史上の位置付けのレビューです．生成AIに助けてもらいながらこれを集約するときに，大学入試で物理を選択せずに理工情報系に入学する学生に，物理学的考え方の面白さと重要さを教えねばならないと感じました．
 
-本リポジトリの教材（index.html や Magic_of_Sequence_MATLAB.mlx）は，制御工学や信号処理における特性方程式の「極とゼロ (Poles and Zeros)」を講義する際の，視覚的で直感的な導入（話の枕）としても活用できます．このトピックに関する高度な理論的背景については 4_Magic_of_Sequence_Advanced.md を，カリキュラム上の教育的意義については 5_Magic_of_Sequence_Edu_Significance.md と6_Historical_Context_via_AI.md をご参照ください．
+本リポジトリの教材（[index.html](https://ritshiroshio.github.io/Magic_of_Sequences/index.html) や [Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)，あるいは，[3_Magic_of_Sequence_Plain.md](3_Magic_of_Sequence_Plain.md)）は，制御工学や信号処理における特性方程式の「極とゼロ (Poles and Zeros)」を講義する際の，視覚的で直感的な導入（話の枕）としても活用できます．
 
 ## 1.4 「数列のマジック」が通底する概念の全体像（Illustrative Summary）
 
@@ -87,7 +88,7 @@
 本 GitHub リポジトリのプログラムや解説データを引用される場合は，以下のZenodoが発行する永続DOIを参照してください．
 [DOIの挿入予定位置(Zenodoにて仮発行されたDOIを記載)]
 
-## 1.7 参考文献および注（References and Notes）
+## 参考文献および注（References and Notes）
 
 `[1]`:  [M.D. Caballero, T.O.B. Odden "Computing in physics education", Nature Physics **20** (2024) 339–341](https://doi.org/10.1038/s41567-023-02371-2) 
 
