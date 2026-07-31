@@ -1,11 +1,11 @@
 # 6. 筆者が生成AIから学んだ歴史的背景
 
-## 6.1. はじめに
+## 6.1 はじめに
 
  ｢数列のマジック｣が，前進差分法と中心差分法の数値解析の歴史上，どの様に位置付けられるか，生成AIに助けてもらいながら，ここに集約しました．
  3項の漸化式と係数a, bの組み合わせをGoogle Geminiに見せたところ，ストーマー・ベルレ法という筆者には耳慣れない名前が返ってきました．筆者は，固体地球物理学が専門で，観測を行い，得られたデジタルデータを解析することを主に行っていて，中心差分の考え方にはとても慣れていました．しかし，中心差分と前方差分の科学史的な背景を学ぶ機会はありませんでした．
  固体地球物理学の分野では，ストーマー・ベルレ法という名前はポピュラーではないとGeminiから教えてもらい安心しました．一方，分子動力学ではベルレ法のみが使われ，応用数学では今でもストーマー・ベルレ法がよく使われるなど，専門分野による違いにも興味を持ちました．
- 時代によって計算環境や計算機の性能が異なるはずなので，Geminiにそれも合わせて一覧表を作ってもらいました．それが7.2の表です．世界と日本の数値解析の教科書のどれに，どこまで記載されているかもGeminiに調べてもらい，それも一覧表に付記してあります．とても興味深かったのは，最新のAI分野において，エネルギー保存の考え方をデータ学習や将来予測に組み込んで成功例があるというGeminiの説明でした．
+ 時代によって計算環境や計算機の性能が異なるはずなので，Geminiにそれも合わせて一覧表を作ってもらいました．それが6.2節の表です．世界と日本の数値解析の教科書のどれに，どこまで記載されているかもGeminiに調べてもらい，それも一覧表に付記してあります．とても興味深かったのは，最新のAI分野において，エネルギー保存の考え方をデータ学習や将来予測に組み込んで成功例があるというGeminiの説明でした．
 
 ## 6.2 Geminiが生成してくれた，数値解析と計算機環境の進化パラダイム（18世紀〜現代）の表
 
@@ -59,7 +59,7 @@ Cray-1などのスパコンが登場し，一気に数百万ステップの計�
 
  筆者は，地球で起こっている自然現象を観測し，得られた1次元や多次元の数値アレイに物理法則が内在していることを楽しんできたため，その面白さを，4月の大学1年生に伝えようと思いついたのが｢数列のマジック｣でした．定年退職後に生成AIと対話する中で，かつては『大学1年生には難しい』と避けていたオイラー法やルンゲ・クッタ法との比較が，実は非常に面白い学びに繋がることに気づかされました．
  中心差分法（ストーマー・ベルレ法）が持つ，エネルギー保存的性質が数学的に実証されたことは，数値解析のいくつかの日本と海外の教科書に記載されていたことでした．
- しかし，Greydanusらの「ハミルトニアン・ニューラル・ネットワーク (HNN)」の論文には，Störmerから始まる100年の歴史物語（7.2の表）は一切書かれておらず，書きぶりは「機械学習の専門家（AIエンジニア）」を読者として想定したもので，テクニカルな数式とAIの構造（グラフ）の解説で構成されています．一般人が読み解けない内容を，Geminiが筆者にわかるように説明し，7.2の表にも含めてくれました．
+ しかし，Greydanusらの「ハミルトニアン・ニューラル・ネットワーク (HNN)」の論文には，Störmerから始まる100年の歴史物語（6.2節の表）は一切書かれておらず，書きぶりは「機械学習の専門家（AIエンジニア）」を読者として想定したもので，テクニカルな数式とAIの構造（グラフ）の解説で構成されています．一般人が読み解けない内容を，Geminiが筆者にわかるように説明し，6.2節の表にも含めてくれました．
  Geminiは，｢AIの研究者たちは「ハミルトン力学」や「数値解析の歴史」を知らず，逆に物理学者たちは「ディープラーニングの誤差逆伝播法」を知りません．両方の高度な知識を前提としているため，一般の人はおろか，片方の分野の専門家であっても読み解くのが困難なレベルです．｣とも教えてくれました． 
 
 Geminiは｢数列のマジック｣を以下の様にも評価してくれました：
@@ -77,9 +77,13 @@ AI隆盛以前の時代に，筆者自身が経験していたことは次のよ
 
 **｢数列のマジック｣は，数値の違いがわずかでも物理的な違いが大きいことがあることに｢気づく｣ことができます．**　その｢気づく｣力を，**AI世代の学生**に涵養させることにも貢献するであろうと，筆者自身が気づくこともできました．｢数列のマジック｣および本公開リソースが，**物理学の重要さと面白さ**を再認識していただくきっかけになれば幸いです．
 
+なお，本節で辿った数値解析の歴史的な流れをさらに深く知りたい方には，以下の啓蒙書が参考になるそうです．人間計算手の時代については『ドリーム NASAを支えた名もなき計算手たち』`[8]`，電子計算機の黎明期からノイマン型コンピュータの成立までの経緯については『チューリングの大聖堂：コンピュータの創造とデジタル世界の到来』`[9]`を，筆者は生成AIに薦められました．ただし，これらの書籍は，本節が辿ったHamiltonian Neural Networks（2019）に至るまでの歴史を一貫して記述したものではなく，あくまで各時代の背景を知るための参考図書です．
+
+また，Wikipediaは査読ジャーナルほど情報の信頼度が高くありませんが，本表（表6.2）にまとめた内容は，`[10]`にリストしたエントリーからもある程度遡及できます．
+
 ## 6.5 生成AI出力を活用した教材開発に関する注記
 
-本資料内の構成要素および解説文の一部は，著者による入力情報に基づき，Google Geminiから出力されたテキストをベースに，著者が整合性を検証し集約しました．
+本資料内の構成要素および解説文の一部は，著者による入力情報に基づき，Google Geminiから出力されたテキストをベースに，著者とClaudeが整合性を検証し集約しました．
 
 ## 6.6 ライセンス
 
@@ -98,13 +102,19 @@ AI隆盛以前の時代に，筆者自身が経験していたことは次のよ
 
 `[3]`: William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery (2007). *Numerical Recipes: The Art of Scientific Computing 3rd Edition*, Cambridge University Press.
 
-`[4]`: Daam Frenkel, Berend Smit (1996, 2001, 2023). *Understanding Molecular Simulation* (1st, 2nd, 3rd eds.), Academic Press.
+`[4]`: Daan Frenkel, Berend Smit (1996, 2001, 2023). *Understanding Molecular Simulation* (1st, 2nd, 3rd eds.), Academic Press. (本書の内容確認には Google Gemini Deep Researchも活用した）
 
 `[5]`: [Giancarlo Benettin, Antonio Giorgilli (1994). On the Hamiltonian interpolation of near-to-the identity symplectic mappings with application to symplectic integration algorithms, *J. Stat. Phys.*, **74**, 1117-1143.](https://doi.org/10.1007/BF02188219)
 
 `[6]`: Ernst Hairer, Christian Lubich, Gerhard Wanner (2006). *Geometric Numerical Integration (Springer Series in Computational Mathematics **31**)*, Springer-Verlag.
 
 `[7]`: [Samuel Greydanus, Misko Dzamba, Jason Yosinski (2019). Hamiltonian Neural Networks. In *Advances in Neural Information Processing Systems 32 (NeurIPS 2019)*, **32**, 15,379-15,389](https://proceedings.neurips.cc/paper_files/paper/2019/file/26cd8ecadce0d4efd6cc8a8725cbd1f8-Paper.pdf).
+
+`[8]`: マーゴット・リー・シェタリー（山北めぐみ訳）『ドリーム NASAを支えた名もなき計算手たち』(ハーパーBOOKS, 2017)．原書: M. L. Shetterly, *Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race* (William Morrow, 2016).
+
+`[9]`: ジョージ・ダイソン（吉田三知世訳）『チューリングの大聖堂：コンピュータの創造とデジタル世界の到来』(早川書房, 2013；文庫版 2017)．原書: G. Dyson, *Turing's Cathedral: The Origins of the Digital Universe* (Pantheon Books, 2012).
+
+`[10]`: 表6.2にまとめた内容をある程度遡及できるWikipediaのエントリー．[Carl Størmer（カール・ストーマー）](https://en.wikipedia.org/wiki/Carl_St%C3%B8rmer)，[UNIVAC 1100/2200 series（スペック情報）](https://en.wikipedia.org/wiki/UNIVAC_1100/2200_series)，[Verlet integration（ベルレ法）](https://en.wikipedia.org/wiki/Verlet_integration)，[Cray-1](https://en.wikipedia.org/wiki/Cray-1)，[Workstation](https://en.wikipedia.org/wiki/Workstation)，[SPARCstation](https://en.wikipedia.org/wiki/SPARCstation)，[Personal computer（History節）](https://en.wikipedia.org/wiki/Personal_computer)
 
 ## 本リポジトリの構成とコンテンツ間連携
 

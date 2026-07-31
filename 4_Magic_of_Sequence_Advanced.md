@@ -163,7 +163,7 @@ b = p(2);
 本 GitHub リポジトリのプログラムや解説データを引用される場合は，以下のZenodoが発行する永続DOIを参照してください．
 [DOIの挿入予定位置(Zenodoにて仮発行されたDOIを記載)]
 
-## 参考文献および注（References and Notes）
+## 参考文献および注
 
 `[1]`: 立命館大学シラバス理工学部物理科学科「ミクロとマクロの世界」(2016) ※Microsoft Excelを使用していた時代は，1年生が自力で「数列のマジック」をできるようになるまで多くの講義回数が必要であった．[https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003F2pUQAS/201631211?language=ja) (2026年7月閲覧)
 
