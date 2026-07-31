@@ -4,7 +4,7 @@
 
 2026年7月現在，時間変化などの1次元数列，画像などの2次元数値配列のある範囲をある一定のルールで演算し，演算範囲を移動させることによって，処理をすることが，多次元数値配列にまで拡張されて，スマートフォンにも使われています．
 
-本資料は，大学2年生以上で学ぶ数理科学，物理学，デジタル信号処理（DSP），および計算機工学の知識を有する読者を想定し，「数列のマジック」`[1,2,3]`の理論的背景，ならびに理論厳密解（Theoretical Exact Solution）および数値近似解（Numerical Approximate Solution）の導出手順を数学的に厳密に解説するものです．
+本資料は，大学2年生以上で学ぶ数理科学，物理学，デジタル信号処理（DSP），および計算機工学の知識を有する読者を想定し，「数列のマジック」`[1,2,3]`の理論的背景，ならびに理論厳密解（Theoretical Exact Solution）および数値近似解（Numerical Approximate Solution）の導出手順を数学的に厳密に解説するものです．これらは当該分野の教科書`[4]`に網羅されている内容です．
 
 工学的には，本リポジトリの3項の有限差分方程式（2階線形定数係数差分方程式）を解くプロセスは，**デジタル信号処理（DSP）における「伝達関数（Transfer Function）」の極（Pole）の配置設計，およびシステムのインパルス応答解析**そのものに対応しています．
 
@@ -147,7 +147,7 @@ b = p(2);
 
 ## 4.5 生成AIモデル別の出力特性と免責事項
 
-本資料に収録されている導出プロセスおよび解説は，筆者の生成AIへの入力情報に基づき，以下の生成AIモデルから出力されたもの，筆者が最終微調整したものです．生成AIが数式のLaTeX化やレイアウトのコンパイルを行っていますが，各数理的アプローチの論旨は2026年7月時点の生成AIの出力に基づいています．
+本資料に収録されている導出プロセスおよび解説は，筆者の生成AIへの入力情報に基づき，以下の生成AIモデルから出力されたもの，筆者とClaudeが最終微調整したものです．生成AIが数式のLaTeX化やレイアウトのコンパイルを行っていますが，各数理的アプローチの論旨は2026年7月時点の生成AIの出力に基づいています．
 
 * **Microsoft Copilot** (取得日: 2026年7月5日)
 * **Google Chrome AI mode** (取得日: 2026年7月5日)
@@ -170,6 +170,8 @@ b = p(2);
 `[2]`:  同上 (2018) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003Ee1qQAC/201831549?language=ja) (2026年7月閲覧) ※この年度からMATLAB が使えるようになったが情報処理教室が必要だった．計算機リテラシー涵養に割く授業数を削減でき，物理科学科1年生全員に「数列のマジック」を講義できるようになった．
 
 `[3]`: 同上(2023) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja) (2026年7月閲覧) ※コロナ・パンデミック後，全受講生がPCを持つようになり，情報処理教室が不要になった．
+
+`[4]`: e.g., A. V. Oppenheim, R. W. Schafer, *Discrete-Time Signal Processing*, 3rd ed. (Pearson/Prentice Hall, 2010). / [I. Goodfellow, Y. Bengio, A. Courville, Deep Learning (MIT Press, 2016)](https://www.deeplearningbook.org/).
 
 ## 本リポジトリの構成とコンテンツ間連携
 
