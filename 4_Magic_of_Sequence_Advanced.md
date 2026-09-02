@@ -154,14 +154,10 @@ b = p(2);
 * **Google Gemini** (取得日: 2026年7月5日)
 * **MATLAB Copilot** (取得日: 2026年7月5日)
 
-## 4.6 ライセンス
+## 4.6 ライセンスと引用情報（CITATION）
 
-本 GitHub リポジトリのプログラムや文書資料は，[クリエイティブ コモンズ 表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) ライセンスの下で提供されています．
+※ 著者情報、引用指定（DOI）、およびライセンス（CC BY 4.0）の詳細は、[README.md](README.md)をご参照ください。
 
-## 4.7 引用情報（CITATION）
-
-本 GitHub リポジトリのプログラムや解説データを引用される場合は，以下のZenodoが発行する永続DOIを参照してください．
-[DOIの挿入予定位置(Zenodoにて仮発行されたDOIを記載)]
 
 ## 参考文献および注
 

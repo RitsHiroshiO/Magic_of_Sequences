@@ -151,14 +151,10 @@ The mathematical derivation processes and explanations recorded in this document
 * **Google Gemini** (Verified: July 5, 2026)
 * **MATLAB Copilot** (Verified: July 5, 2026)
 
-## 4.6 License
+## 4.6 Author and Citation
 
-The programming codes and instructional materials in this repository are provided under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+* Note: For details on author information, citation instructions (DOI), and the license (CC BY 4.0), please refer to [README_en.md](README_en.md).
 
-## 4.7 Citation
-
-If you use the programs, data, or instructional materials in this GitHub repository, please cite the following persistent DOI issued by Zenodo:
-[Insert Zenodo DOI here]
 
 ## References and notes
 

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use or reference the program codes, instructional materials, or the web simulator in this repository, please cite it as follows.\n本リポジトリのプログラムコード、解説資料、およびWebシミュレーターを引用・活用される場合は、以下の通り引用してください。"
+authors:
+  - family-names: "Ogasawara"
+    given-names: "Hiroshi"
+    affiliation: "Research Organization of Science and Technology (formerly College of Science and Engineering), Ritsumeikan University (立命館大学 総合科学技術研究機構(元:理工学部))"
+    orcid: "https://orcid.org/0000-0002-8193-7174"
+title: "Magic of Sequences (数列のマジック)"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-09-02
+url: "https://github.com/RitsHiroshiO/Magic_of_Sequences"
+license: CC-BY-4.0

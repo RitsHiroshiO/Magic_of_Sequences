@@ -83,10 +83,16 @@
 
 プログラムコードおよび文書資料は，[クリエイティブ コモンズ 表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) ライセンスの下で提供されています．
 
-## 1.6 引用情報（CITATION）
+## 1.6 著者および引用情報 (Author and Citation)
 
-本 GitHub リポジトリのプログラムや解説データを引用される場合は，以下のZenodoが発行する永続DOIを参照してください．
+**小笠原 宏 (Hiroshi Ogasawara)**
+* 立命館大学 総合科学技術研究機構（元：理工学部）
+* [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8193--7174-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
+
+本 GitHub リポジトリのプログラムや解説データを引用・活用される場合は、以下のZenodoが発行する永続DOIをご指定ください。
+
 [DOIの挿入予定位置(Zenodoにて仮発行されたDOIを記載)]
+
 
 ## 参考文献および注（References and Notes）
 
@@ -100,3 +106,4 @@
 
 
 `[5]`: 先行研究および公的教材の例：[F.Goldberg, S.Bendall, *Am. J. Phys.* **63** (1995) 978.](https://doi.org/10.1119/1.18085) / [小倉 昭弘, *物理教育* **61** (2013) 21.](https://doi.org/10.20653/pesj.61.1_21) / [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) / [文部科学省 『高等学校情報科「情報 I」教員研修用教材（第3章 コンピュータとプログラミング）』 (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
+

@@ -5,7 +5,9 @@
 This document is a Markdown export of the original MATLAB Live Script ([Magic_of_Sequence_MATLAB.mlx](Magic_of_Sequence_MATLAB.mlx)), with minor adjustments, for readers who do not have a MATLAB environment. Please note that while each section in this document perfectly matches the original file, there are two differences: the section numbers here start from "3" (instead of "2" in the original file), and this explanatory paragraph has been added.
 
 ### Explanation for first-year university students
-This MATLAB program code (Live Script format) is based on the "Magic of Sequences" teaching materials. It has been used in the first April class for first-year students in the Department of Physical Sciences, College of Science and Engineering, Ritsumeikan University, in the introductory course "Micro and Macro Worlds" `[1, 2, 3]`. By slightly changing the coefficients of the local micro rule ($u_n = a \times u_{n-1} - b \times u_{n-2}$; a three-term recurrence relation), the macroscopic result appears as different curves. This aims to help students smoothly transition from high school "Mathematics", "Physics", and "Information I" to university "Mathematics", "Physics", and "Computer and Information Science and Engineering".
+This MATLAB program code (Live Script format) is based on the "Magic of Sequences" teaching materials. Here, the "Live Script format" refers to a MATLAB document format that allows you to interactively handle code, explanatory text, mathematical formulas, and execution results within a single file.
+
+It has been used in the first April class for first-year students in the Department of Physical Sciences, College of Science and Engineering, Ritsumeikan University, in the introductory course "Micro and Macro Worlds" `[1, 2, 3]`. By slightly changing the coefficients of the local micro rule ($u_n = a \times u_{n-1} - b \times u_{n-2}$; a three-term recurrence relation), the macroscopic result appears as different curves. This aims to help students smoothly transition from high school "Mathematics", "Physics", and "Information I" to university "Mathematics", "Physics", and "Computer and Information Science and Engineering".
 
 It is designed so that students can learn without detailed mathematical explanations of the forward difference method (Euler method) `[4]`, which is frequently used in introductory computer education.
 
@@ -15,7 +17,9 @@ It is designed so that students can learn without detailed mathematical explanat
 *The comparison with the fourth-order Runge-Kutta method `[4]` was not included in the original material for first-year students. I decided to include it now because a generative AI suggested it would be interesting in July 2026. The fourth-order Runge-Kutta method is a high-precision version of the Euler method (first-order Runge-Kutta method), often used in introductory computer education. It is considered a standard high-precision tool for ordinary differential equations in various fields. However, I did not include it for first-year students because it is too difficult to teach in their first month. But the generative AI pointed out that the "Magic of Sequences" has properties that avoid the problems faced by the Runge-Kutta method `[8]`, as shown in Figure 6 in Section 3.5 of this MD file (corresponding to Section 2.5 in MATLAB Live Script). Because the computer code for the "Magic of Sequences" is very simple, undergraduate students in specialized courses can use it effectively. It helps when studying the difficulties `[8]` experienced by forward difference and non-energy-conserving methods in fields like molecular dynamics, astronomy, and AI (deep learning), and how those difficulties were avoided. These research fields are different from my own specialty, so I rarely had the chance to overview such recent research. I enjoyed the generative AI's overview capability.*
 
 ### Required Environment to Enjoy MATLAB Live Script
-To use this MATLAB Live Script, you need MATLAB 2022a or a newer version `[9]`. You also need the MATLAB Live Editor environment `[9]`. While this environment has advanced features, it does not run on mobile browsers on smartphones or tablets. Therefore, this document also provides [an interactive HTML app](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html) `[10]` that runs in a browser and an approach using Google Colab (Python) that can run on a mobile browser. This allows students to easily run and observe the simulations on their mobile devices.
+To enjoy this MATLAB Live Script, MATLAB 2021a or a newer version is required `[9]`. Furthermore, we recommend using a newer version (MATLAB R2025a or later), as the parameter control and animation features have been enhanced `[9]`.
+
+While this environment has advanced features, it does not run on mobile browsers on smartphones or tablets. Therefore, this document also provides [an interactive HTML app](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html) `[10]` that runs in a browser and an approach using Google Colab (Python) that can run on a mobile browser. This allows students to easily run and observe the simulations on their mobile devices.
 
 As of July 2026, chat-based generative AI is widely available and very useful. By simply providing the "Content of Section 3.2" below, the AI generated the HTML app mentioned above. The translation from MATLAB code to Python code was also instant.
 
@@ -71,9 +75,9 @@ The reason a simple recurrence relation draws a sine wave is that it calculates 
 
 Consider a harmonic oscillator system where a mass of $m=1\text{ kg}$ is connected to a spring with a spring constant $k=1\text{ N/m}$. Let $u$ be the position of the mass. The equation of motion (differential equation) is $\frac{d^2u}{dt^2} + u = 0$. The theoretically exact solutions obtained mathematically are sine waves ($\sin(t)$ or $\cos(t)$). A differential equation is a local rule that describes how the "current" state relates to the "previous and next" states. We discretize this so a computer can process it.
 
-#### Discretization by the Central Difference Method (St√∂rmer-Verlet Method `[8]`)
+#### Discretization by the Central Difference Method (Stè´”rmer-Verlet Method `[8]`)
 
-When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (St√∂rmer-Verlet method) as follows:
+When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (Stè´”rmer-Verlet method) as follows:
 
 $$\frac{d^2u}{dt^2} \approx \frac{(u_{n+1} - u_n)/\Delta t -(u_n-u_{n-1})/\Delta t}  {\Delta t} = \frac{u_{n+1} - 2u_n + u_{n-1}}{\Delta t^2}$$
 
@@ -408,13 +412,13 @@ HTML(anim.to_jshtml())
 
 ```
 
-## 3.7 License
+## 3.7 Acknowledgments
+Regarding the MATLAB operating environment, I would like to express my sincere gratitude to Ms. Ryoko Hayashi, Manager of Customer Success Engineering (Academia) at MathWorks Japan, for reviewing the contents and providing valuable comments.
 
-The program code and document materials are provided under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+## 3.8 Author and Citation
 
-## 3.8 Citation
+* Note: For details on author information, citation instructions (DOI), and the license (CC BY 4.0), please refer to [README_en.md](README_en.md).
 
-When citing the programs and explanatory data in this GitHub repository, please refer to the following permanent DOI issued by Zenodo. [DOI insertion position (Insert the temporary DOI issued by Zenodo)]
 
 ## References and Notes
 
@@ -437,8 +441,7 @@ When citing the programs and explanatory data in this GitHub repository, please 
 
 `[8]`: [In this repository: Historical background of the "Magic of Sequences" learned by the author from generative AI](6_Historical_Context_via_AI_en.md)
 
-`[9]`: The basic features of the latest MATLAB version are available via MATLAB Online, which can be used on a PC web browser. You can search for "MATLAB Online" and start using it. Even without a paid license, you can use it for free up to 20 hours per month. Creating a MathWorks account is required, but you can also use free courses and other educational resources.
-
+`[9]`: To use the basic features of the latest version of MATLAB, you can use MATLAB Online, which runs on a PC web browser. You can start by searching for "MATLAB Online" on the web. Even if you do not have a regular license, MATLAB Online Basic is available for free for up to 20 hours per month. Although you need to create a MathWorks account, you can also access free courses and other educational resources.
 `[10]`: [In this repository: An HTML app to enjoy the "Magic of Sequences" on mobile browsers](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)
 
 ## Repository Structure and Contents

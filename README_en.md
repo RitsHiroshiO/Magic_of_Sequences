@@ -73,9 +73,14 @@ The educational materials in this repository (such as [index_en.html](https://ri
 
 The programming codes and instructional materials in this repository are provided under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-## 1.6 Citation
+## 1.6 Author and Citation
 
-If you use the programs, data, or instructional materials in this GitHub repository, please cite the following persistent DOI issued by Zenodo:
+**Hiroshi Ogasawara**
+* Research Organization of Science and Technology (formerly College of Science and Engineering), Ritsumeikan University
+* [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8193--7174-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
+
+If you use or reference the program codes, instructional materials, or the web simulator in this GitHub repository, please cite it using the following persistent DOI issued by Zenodo:
+
 [Insert Zenodo DOI here]
 
 ## References
@@ -83,3 +88,11 @@ If you use the programs, data, or instructional materials in this GitHub reposit
 `[1]`: [M.D. Caballero, T.O.B. Odden "Computing in physics education", Nature Physics **20** (2024) 339–341](https://doi.org/10.1038/s41567-023-02371-2) 
 
 `[2]`: Examples of prior research and public teaching materials: [F.Goldberg, S.Bendall, Am. J. Phys. 63 (1995) 978](https://doi.org/10.1119/1.18085). / [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) / [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Chapter 3: Specialized Problem Solving and Programming)" (2019) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
+
+## Author
+**Hiroshi Ogasawara**
+* Research Organization of Science and Technology (formerly College of Science and Engineering), Ritsumeikan University
+* [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8193--7174-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8193-7174) 
+  ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
+
+
