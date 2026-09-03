@@ -81,7 +81,7 @@ The programming codes and instructional materials in this repository are provide
 
 If you use or reference the program codes, instructional materials, or the web simulator in this GitHub repository, please cite it using the following persistent DOI issued by Zenodo:
 
-[![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218)
+[![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218)  DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
 ## References
 
