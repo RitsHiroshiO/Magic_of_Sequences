@@ -87,11 +87,10 @@
 
 **小笠原 宏 (Hiroshi Ogasawara)**
 * 立命館大学 総合科学技術研究機構（元：理工学部）
-* [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8193--7174-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
+* [![ORCID](ORCID-0000--0002--8193--7174-A6CE39.svg)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
 
 本 GitHub リポジトリのプログラムや解説データを引用・活用される場合は、以下のZenodoが発行する永続DOIをご指定ください。
-
-[DOIの挿入予定位置(Zenodoにて仮発行されたDOIを記載)]
+[![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218)
 
 
 ## 参考文献および注（References and Notes）
