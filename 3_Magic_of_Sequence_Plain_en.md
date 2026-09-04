@@ -75,9 +75,9 @@ The reason a simple recurrence relation draws a sine wave is that it calculates 
 
 Consider a harmonic oscillator system where a mass of $m=1\text{ kg}$ is connected to a spring with a spring constant $k=1\text{ N/m}$. Let $u$ be the position of the mass. The equation of motion (differential equation) is $\frac{d^2u}{dt^2} + u = 0$. The theoretically exact solutions obtained mathematically are sine waves ($\sin(t)$ or $\cos(t)$). A differential equation is a local rule that describes how the "current" state relates to the "previous and next" states. We discretize this so a computer can process it.
 
-#### Discretization by the Central Difference Method (St√∂rmer-Verlet Method `[8]`)
+#### Discretization by the Central Difference Method (Stè´”rmer-Verlet Method `[8]`)
 
-When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (St√∂rmer-Verlet method) as follows:
+When a continuous curve is approximated by a polygonal line, let $\Delta t$ be the finite time interval. Let the positions at three consecutive points be $u_{n-1}, u_n, u_{n+1}$. The acceleration $\frac{d^2u}{dt^2}$ at time $n$ can be approximated using the central difference method (Stè´”rmer-Verlet method) as follows:
 
 $$\frac{d^2u}{dt^2} \approx \frac{(u_{n+1} - u_n)/\Delta t -(u_n-u_{n-1})/\Delta t}  {\Delta t} = \frac{u_{n+1} - 2u_n + u_{n-1}}{\Delta t^2}$$
 
@@ -279,12 +279,7 @@ end % for n=3:100 % Python does not require "end", but MATLAB does.
 
 *Figure 7: A still image of a scene from the 1D wave propagation animation.*
 
-Looking from the front of the screen to the right, the displacement of mass points 1 to 20 is shown by the height, and the left side of the image shows the progress of time. If you use MATLAB 2022a or a newer version, you can run this Live Script and observe the status at different times using the slide bar. By slightly changing the viewing angle, you can export the animation as a video (MP4 or AVI). The 4-second YouTube video at https://youtu.be/08CE5n18Tqk was created this way.
-
-#### Note on the MATLAB animation tools
-
-As of July 2026, there is a known issue: if you use the slider for the 1D animation after both the 1D and 2D animations have finished running, the 2D wave appears in the upper figure window instead of the 1D wave propagation. Since adding code to fix this issue would make the program too complex, we have intentionally omitted it here.
-If you want to use the slider to observe the 1D wave propagation, please comment out (or delete) the 2D animation code below before running the script.
+Looking from the front of the screen to the right, the displacement of mass points 1 to 20 is shown by the height, and the left side of the image shows the progress of time. If you use MATLAB 2021a or a newer version, you can run this Live Script and observe the status at different times using the slide bar. By slightly changing the viewing angle, you can export the animation as a video (MP4 or AVI). The 4-second YouTube video at https://youtu.be/08CE5n18Tqk was created this way.
 
 #### Python Code Example
 
