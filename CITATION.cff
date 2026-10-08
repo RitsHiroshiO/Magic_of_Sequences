@@ -13,8 +13,8 @@ identifiers:
     value: 10.5281/zenodo.22250218
     description: "Concept DOI (all versions; resolves to the latest version)"
   - type: doi
-    value: 10.5281/zenodo.22267968
+    value: 10.5281/zenodo.23232555
     description: "Version DOI for V.1.0.3"
-date-released: 2026-10-06
+date-released: 2026-10-08
 url: "https://github.com/RitsHiroshiO/Magic_of_Sequences"
 license: CC-BY-4.0
