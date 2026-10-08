@@ -432,7 +432,7 @@ If you use or reference the program codes or instructional materials in this Git
 
 [![DOI](zenodo.22250218.png)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
-This persistent DOI automatically resolves to the latest version; as of October 6, 2026, it resolves to V.1.0.3 (DOI: [10.5281/zenodo.22267968](https://doi.org/10.5281/zenodo.22267968)).
+This persistent DOI automatically resolves to the latest version; as of October 8, 2026, it resolves to V.1.0.3 (DOI: [10.5281/zenodo.23232555](https://doi.org/10.5281/zenodo.23232555)).
 
 
 ## References and Notes

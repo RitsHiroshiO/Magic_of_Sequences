@@ -118,7 +118,7 @@
 本 GitHub リポジトリのプログラムや解説データを引用・活用される場合は，以下のZenodoが発行する永続DOIをご指定ください．
 [![DOI](zenodo.22250218.png)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
-この永続DOIは最新バージョンに自動的にリンクされ，2026年10月6日現在，V.1.0.3（DOI: [10.5281/zenodo.22267968](https://doi.org/10.5281/zenodo.22267968)）にリンクされています．
+この永続DOIは最新バージョンに自動的にリンクされ，2026年10月8日現在，V.1.0.3（DOI: [10.5281/zenodo.23232555](https://doi.org/10.5281/zenodo.23232555)）にリンクされています．
 
 ## 参考文献および注（References and Notes）
 
