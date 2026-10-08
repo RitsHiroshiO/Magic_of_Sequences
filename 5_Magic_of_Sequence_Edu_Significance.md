@@ -4,16 +4,16 @@
 
 「数列のマジック」`[1,2,3]`として提示される2階線形有限差分方程式（Finite Difference Equation）は，単に特定の正弦波を生成するものにとどまりません．これは，大学で学ぶ数理科学，物理学，デジタル信号処理（DSP），コンピュータグラフィックス（CG），およびデータサイエンスを通底する，数値処理の目の付け所を見つける力を涵養します．
 
-｢『数列のマジック』が大学で学ぶ何を先取りしているか？　何と通底しているか？｣については，概略図をREADME.mdの1.4節の図に示していました．ここでは，より詳細を説明します．
+「『数列のマジック』が大学で学ぶ何を先取りしているか？　何と通底しているか？」については，概略図をREADME.mdの1.4節の図に示していました．ここでは，より詳細を説明します．
 
-アメリカの著名な物理学者ファインマンが亡くなった1988年，"What I cannot create, I do not understand."と"Know how to solve every problem that has been solved."という板書を遺していました`[4]`．2026年現在でも前者と後者は共に，非常に重要です．しかし，生成AIが広く普及している2026年現在，後者については"Ask generative AI how to solve every problem that has been solved."によって驚くべき広範囲が俯瞰できるようになっています．｢数列のマジック｣を定量的に観察し，生成AIに尋ねるだけで、以前は俯瞰が絶対出来なかった広い範囲を，筆者は俯瞰することができました．
+アメリカの著名な物理学者ファインマンが亡くなった1988年，"What I cannot create, I do not understand."と"Know how to solve every problem that has been solved."という板書を遺していました`[4]`．2026年現在でも前者と後者は共に，非常に重要です．しかし，生成AIが広く普及している2026年現在，後者については"Ask generative AI how to solve every problem that has been solved."によって驚くべき広範囲が俯瞰できるようになっています．「数列のマジック」を定量的に観察し，生成AIに尋ねるだけで，以前は俯瞰が絶対出来なかった広い範囲を，筆者は俯瞰することができました．
 
-## 5.2 物理・数学教育カリキュラムの何を｢数列のマジック｣が先取りしているか
+## 5.2 物理・数学教育カリキュラムの何を「数列のマジック」が先取りしているか
 
 ### 5.2.1 力学・計算物理学（1〜2年次）への接続
 
-* **力学基礎の離散化**：高校物理で暗記しがちな単振動・減衰振動の連続系微分方程式を，微分の定義から時間的に隣接する項の関係（差分表現）へと落とし込み，数万〜数十万ステップの全容を自力で計算する手法（ストーマー・ベルレ法／中心差分法）の基礎を学びます `[5]`．
-* **計算限界のリアルタイム客観視（メタ認知）`[6]`**：ライブラリに依存せず四則演算のループを長期反復させることで，微小な位相誤差の累積がマクロな「うなり（Beating）」を生じるプロセス（計算機の限界）を数値近似解（Numerical Approximate Solution）を通して体感させます`[5]`．
+* **力学基礎の離散化**：高校物理で暗記しがちな単振動と大学で習う減衰振動の連続系微分方程式を，微分の定義から時間的に隣接する項の関係（差分表現）へと落とし込み，数万〜数十万ステップの全容を自力で計算する手法（ストーマー - ベルレ法／中心差分法）の基礎を学びます `[5]`．この方法は，蛙飛び法（leapfrog）として物理教育でも紹介されており`[9]`，多くの教科書が前進オイラー法の次に導入するオイラー-クローマー法とも，位置だけで書くと同じ漸化式になります`[10]`．
+* **計算限界のリアルタイム客観視（メタ認知）`[6]`**：ライブラリに依存せず四則演算のループを長期反復させることで，微小な位相誤差の累積がマクロな「うなり（Beating）」を生じるプロセス（離散化モデルの限界）を数値近似解（Numerical Approximate Solution）を通して体感させます`[5]`．同時に，係数 $b=1$ のときは振幅が何十万ステップでも減りも増えもしないこと（面積保存・シンプレクティック性）も観察でき，「誤差の種類（位相のずれと振幅のずれ）」を区別する目を養います`[5]`．
 
 ### 5.2.2 微分方程式・物理数学（1〜2年次）への接続
 
@@ -28,8 +28,8 @@
 
 ### 5.3.1 高校生・文理選択検討者
 
-* **実社会での応用**：スマートフォン向けゲームの「物理エンジン（CGアニメーション技術におけるキャラクターのリアルなジャンプ・着地挙動）」や，画面スクロール時の「慣性のある滑らかな挙動制御」の裏側で，この有限差分方程式（速度比例抵抗の計算）が使われています．
-* **カリキュラム連携**：高校数学の「数列」や「情報I」のループ処理`[8]`が，最先端のCGやデジタル映像デザインを動かすコア技術であることを提示し，理系のバックグラウンドを持ちながら文理の枠を超えて活躍する道があることを示して進路の視野を広げます．
+* **実社会での応用**：スマートフォン向けゲームの「物理エンジン（CGアニメーション技術におけるキャラクターのリアルなジャンプ・着地挙動）」や，画面スクロール時の「慣性のある滑らかな挙動制御」の裏側で，この有限差分方程式と同じ形の計算が使われています．たとえば，指で弾いた画面が少しずつ減速して止まる慣性スクロールは，速度を毎回一定の割合で減らしながら位置を進める計算で，位置だけで書くと $(a,b)=(1.99,0.99)$ のような「一定値に漸近する」場合と同じ形の漸化式になります．また，多くの物理エンジンが採用している「速度を先に更新してから位置を進める」方法（半陰的オイラー法）も，位置だけで書くとこの漸化式と同じ形です．
+* **カリキュラム連携**：高校数学の「数列」や「情報I」のループ処理`[11]`が，最先端のCGやデジタル映像デザインを動かすコア技術であることを提示し，理系のバックグラウンドを持ちながら文理の枠を超えて活躍する道があることを示して進路の視野を広げます．
 
 ### 5.3.2 理工系大学受験生
 
@@ -48,18 +48,18 @@
 
 ### 5.3.5 物理系学科の大学1年生（分野横断・工学への接続）
 
-* **実社会での応用**：現代の生成AI（TransformerのAttentionメカニズムや，時系列データを扱うRNN）における将来予測の仕組み，データ科学におけるシステム同定，および金融工学における株価・金利の予測モデル（自己回帰モデル）に応用されています`[8]`．
-* **カリキュラム連携**：有限差分方程式の定数セット（パラメータ）を設計・調整して現象を再現するアプローチは，デジタル信号処理（DSP）における**「インパルス応答の設計」や「伝達関数の極配置制御」**，さらにはAIが「重みパラメータ」を最適化するプロセスと同じです．物理学科の数理モデリング力を軸に，他学科の工学的応用カリキュラムを自発的に学ぶ動機付けとします`[8]`．
+* **実社会での応用**：過去の値の重み付き和で次の値を予測する自己回帰（AR）モデルは，データ科学におけるシステム同定や，金融工学・経済学の時系列予測の基本モデルです`[8]`．時系列データを扱う再帰型ニューラルネットワーク（RNN）も，「過去の状態から次の状態を作る」という漸化式の構造を非線形に拡張したものです．なお，Transformer（現在の多くの生成AIの土台となっている仕組み）などの生成AIが1語ずつ予測していく方式も「自己回帰的」と呼ばれますが，これは名称の由来を共有するもので，線形の漸化式そのものではありません．
+* **カリキュラム連携**：有限差分方程式の定数セット（パラメータ）を設計・調整して現象を再現するアプローチは，デジタル信号処理（DSP）における**「インパルス応答の設計」や「伝達関数の極配置制御」**，さらにはAIが「重みパラメータ」を最適化するプロセスとも共通しています（4章4.4節の最小二乗法による係数推定は，その最も簡単な例です）．物理学科の数理モデリング力を軸に，他学科の工学的応用カリキュラムを自発的に学ぶ動機付けとします`[8]`．
 
 ### 5.3.6 教育関係者（高校・大学導入期）
 
-* **教材としての融合性**：高校の「数学B（数列）」と「情報I（プログラミング）」を横断する，探究学習の融合教材として機能します `[8]`．
+* **教材としての融合性**：高校の「数学B（数列）」と「情報I（プログラミング）」を横断する，探究学習の融合教材として機能します `[11]`．
 * **教育ミッションの再定義**：生成AIが複雑なコードやWebアプリを完璧に瞬時に出力する時代だからこそ，構文の習得にとどまらない「離散化モデルが内包する誤差や限界の客観視（メタ認知）」を教えることが，これからの大学初年次教育の新たな任務であることを提示・支援します `[6]`．
 
 ### 5.3.7 社会人自習者（リカレント教育）
 
 * **実社会での応用**：製造業における経年劣化データの動的解析や，金融工学における自己回帰（AR）時系列予測の基礎理論です．
-* **カリキュラム連携**：過去2ステップの履歴（ $u_{n}, u_{n-1}$ ）が未来（ $u_{n+1}$ ）を決定する構造は，動的システム理論やデジタル信号処理（DSP）の基礎です．高校の数学・物理の知識を出発点として，最先端のデータ科学やAIの仕組み（ResNetやNeural ODEなど）を地続きで深く理解するための最適なリカレント教材を提供します．
+* **カリキュラム連携**：過去2ステップの履歴（ $u_{n}, u_{n-1}$ ）が未来（ $u_{n+1}$ ）を決定する構造は，動的システム理論やデジタル信号処理（DSP）の基礎です．高校の数学・物理の知識を出発点として，最先端のデータ科学やAIの仕組み（ResNetやNeural ODE（ニューラル常微分方程式）など）を地続きで理解するためのリカレント教材を提供します．たとえば ResNet の残差ブロック $x_{k+1} = x_k + F(x_k)$ は，前進オイラー法と同じ形をしています`[8]`．
 
 ## 5.4 生成AI出力を活用した教材開発に関する注記
 
@@ -67,7 +67,7 @@
 
 ## 5.5 ライセンスと引用情報（CITATION）
 
-※ 著者情報、引用指定（DOI）、およびライセンス（CC BY 4.0）の詳細は、[README.md](README.md)をご参照ください。
+※ 著者情報，引用指定（DOI：論文やデータに付く恒久的な識別番号），およびライセンス（CC BY 4.0：出典を表示すれば自由に利用・改変できる）の詳細は，[README.md](README.md)をご参照ください．
 
 
 ## 参考文献および注
@@ -78,22 +78,28 @@
 
 `[3]`: 同上(2023) [https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja](https://syllabus.ritsumei.ac.jp/syllabus/s/r-syllabus/a0ifD000003EblHQAS/202331861?language=ja) (2026年7月閲覧) ※コロナ・パンデミック後，全受講生がPCを持つようになり，情報処理教室が不要になった．
 
-`[4]`: [Caltech Archives and Special Collections, "Richard Feynman's blackboard at time of his death" (1988)] (https://digital.archives.caltech.edu/collections/Images/1.10-29/)
+`[4]`: [Caltech Archives and Special Collections, "Richard Feynman's blackboard at time of his death" (1988)](https://digital.archives.caltech.edu/collections/Images/1.10-29/)
 
 `[5]`: 本 GitHub リポジトリ．
 
-`[6]`: [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf) (2026年7月閲覧) /  [M.D. Caballero, T.O.B. Odden "Computing in physics education", Nature Physics **20** (2024) 339–341](https://doi.org/10.1038/s41567-023-02371-2) 
+`[6]`: [AAPT Undergraduate Curriculum Task Force (2016) AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum](https://www.aapt.org/resources/upload/aapt_uctf_compphysreport_final_b.pdf)（AAPT：米国物理教師協会） (2026年7月閲覧) /  [M.D. Caballero, T.O.B. Odden "Computing in physics education", Nature Physics **20** (2024) 339–341](https://doi.org/10.1038/s41567-023-02371-2) 
 
 `[7]`: 1次元の波動伝播のアニメーション表示 (MATLAB Live Script 用コードおよび実行して得られる4秒間の動画) [https://youtu.be/08CE5n18Tqk](https://youtu.be/08CE5n18Tqk) (2026年7月閲覧)
 
-`[8]`: 先行研究および公的教材の例: [F. Goldberg, S. Bendall, *Am. J. Phys.* **63** (1995) 978.](https://doi.org/10.1119/1.18085) / [小倉昭弘 *物理教育* **61** (2013) 21(https://doi.org/10.20653/pesj.61.1_21) / [文部科学省『高等学校情報科「情報I」教員研修用教材』(2019) pp. 118-123.](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf) / A. V. Oppenheim, R. W. Schafer, *Discrete-Time Signal Processing*, 3rd ed. (Pearson/Prentice Hall, 2010). / [I. Goodfellow, Y. Bengio, A. Courville, Deep Learning (MIT Press, 2016)](https://www.deeplearningbook.org/).
+`[8]`: 信号処理・機械学習の教科書の例: A. V. Oppenheim, R. W. Schafer, *Discrete-Time Signal Processing*, 3rd ed. (Pearson/Prentice Hall, 2010) / [I. Goodfellow, Y. Bengio, A. Courville, Deep Learning (MIT Press, 2016)](https://www.deeplearningbook.org/) / [W. E, "A Proposal on Machine Learning via Dynamical Systems", *Commun. Math. Stat.* **5** (2017) 1–11](https://doi.org/10.1007/s40304-017-0103-z)（ResNet を力学系の離散化とみる提案）．
+
+`[9]`: [小倉 昭弘「蛙飛び法を使った力学の授業」, *物理教育* **61**(1) (2013) 21–22](https://doi.org/10.20653/pesj.61.1_21) / R. P. Feynman, R. B. Leighton, M. Sands, *The Feynman Lectures on Physics*, Vol. I, Ch. 9 (Addison-Wesley, 1963)．
+
+`[10]`: [A. Cromer, "Stable solutions using the Euler approximation", *Am. J. Phys.* **49** (1981) 455–459](https://doi.org/10.1119/1.12478)．
+
+`[11]`: [文部科学省『高等学校情報科「情報I」教員研修用教材（本編）』第3章 (2020) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf)．
 
 ## 本リポジトリの構成とコンテンツ間連携
 
 * **[README.md](README.md)**
-* **[スマホでも遊べる｢数列のマジック｣](https://ritshiroshio.github.io/Magic_of_Sequences/index.html)**
-* **[｢数列のマジック｣の4月の大学一年生向け種明かし(MATLAB Live Script)](Magic_of_Sequence_MATLAB.mlx)**
+* **[スマホでも遊べる「数列のマジック」](https://ritshiroshio.github.io/Magic_of_Sequences/index.html)**
+* **[「数列のマジック」の4月の大学一年生向け種明かし(MATLAB Live Script)](Magic_of_Sequence_MATLAB.mlx)**
 * **[3 上記のMarkdownテキスト](3_Magic_of_Sequence_Plain.md)**
-* **[4 ｢数列のマジック｣の大学2～3年生向け種明かし](4_Magic_of_Sequence_Advanced.md)**
-* **[5 ｢数列のマジック｣が大学で習う何を先取りしているか](5_Magic_of_Sequence_Edu_Significance.md)**
-* **[6 筆者が生成AIから学んだ｢数列のマジック｣の歴史的背景](6_Historical_Context_via_AI.md)**
+* **[4 「数列のマジック」の大学2～3年生向け種明かし](4_Magic_of_Sequence_Advanced.md)**
+* **[5 「数列のマジック」が大学で習う何を先取りしているか](5_Magic_of_Sequence_Edu_Significance.md)**
+* **[6 筆者が生成AIから学んだ「数列のマジック」の歴史的背景](6_Historical_Context_via_AI.md)**
