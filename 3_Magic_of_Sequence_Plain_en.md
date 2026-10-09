@@ -426,11 +426,11 @@ The programming codes and instructional materials are provided under the [Creati
 
 **Hiroshi Ogasawara**
 * Research Organization of Science and Technology (formerly College of Science and Engineering), Ritsumeikan University
-* [![ORCID](ORCID-0000--0002--8193--7174-A6CE39.png)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
+* [![ORCID](ORCID-0000--0002--8193--7174-A6CE39.svg)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
 
 If you use or reference the program codes or instructional materials in this GitHub repository, please cite the following persistent DOI issued by Zenodo:
 
-[![DOI](zenodo.22250218.png)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
+[![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
 This persistent DOI automatically resolves to the latest version.
 
