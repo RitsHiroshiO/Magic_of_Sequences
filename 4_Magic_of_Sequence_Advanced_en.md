@@ -102,9 +102,7 @@ Figure 6 in Chapter 3 shows the case of $\Delta t=0.1$ and $a=1.99$; even after 
 **(Technical explanation)** If we regard the recurrence relation $u_{n+1} = a u_n - b u_{n-1}$ as a map that advances the pair of consecutive terms $(u_n, u_{n-1})$ by one step, it can be written as
 
 $$
-\begin{bmatrix} u_{n+1} \\ u_n \end{bmatrix}
-= \begin{bmatrix} a & -b \\ 1 & 0 \end{bmatrix}
-\begin{bmatrix} u_n \\ u_{n-1} \end{bmatrix}
+\begin{bmatrix} u_{n+1} \\\\ u_n \end{bmatrix} = \begin{bmatrix} a & -b \\\\ 1 & 0 \end{bmatrix} \begin{bmatrix} u_n \\\\ u_{n-1} \end{bmatrix}
 $$
 
 The determinant of this matrix is $b$. Therefore, when $b=1$, this map preserves area in the two-dimensional plane (corresponding to position and velocity). For a system with one degree of freedom, area preservation means the same as symplecticity.
@@ -162,7 +160,7 @@ $$
 Letting the data matrix be $X$, the output vector be $y$, and the parameter vector be $p = [a, b]^T$, the numerical least-squares solution is obtained from the Normal Equation as follows:
 
 $$
-p = \begin{bmatrix} a \\ b \end{bmatrix} = (X^T X)^{-1}X^T y
+p = [a, b]^T = (X^T X)^{-1}X^T y
 $$
 
 Below is a concrete implementation example of this least-squares identification algorithm in MATLAB:
