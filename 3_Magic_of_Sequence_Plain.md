@@ -437,10 +437,10 @@ MATLABの動作環境については，MathWorks Japan カスタマーサクセ�
 
 **小笠原 宏 (おがさわら ひろし)**
 * 立命館大学 総合科学技術研究機構（元：理工学部）
-* [![ORCID](ORCID-0000--0002--8193--7174-A6CE39.png)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
+* [![ORCID](ORCID-0000--0002--8193--7174-A6CE39.svg)](https://orcid.org/0000-0002-8193-7174) ORCID: [https://orcid.org/0000-0002-8193-7174](https://orcid.org/0000-0002-8193-7174)
 
 本 GitHub リポジトリのプログラムや解説データを引用・活用される場合は，以下のZenodoが発行する永続DOIをご指定ください．
-[![DOI](zenodo.22250218.png)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
+[![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
 この永続DOIは最新バージョンに自動的にリンクされます．
 
