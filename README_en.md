@@ -1,4 +1,4 @@
-# 1. Magic of Sequences: Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations (V.1.0.3)
+# 1. Magic of Sequences: Open Educational Resources for Physics-Math-Computing via Simple Recurrence Relations (V.1.0.4)
 [「数列のマジック」 README 日本語版](README.md)
 
 > While compiling this repository, I realized that the "Magic of Sequences" will also help **AI-generation students** develop their ability **to notice that even a slight numerical difference can result in a large physical difference**. I hope that the "Magic of Sequences" and this open resource will give readers a chance to recognize **the importance and appeal of physics** again.
@@ -17,7 +17,7 @@ Modern STEM education, e.g., Caballero & Odden (2024, Nature Physics)`[1]` empha
 
 As Richard Feynman famously noted, *"What I cannot create, I do not understand."* In today's digital era, where generative AI can instantaneously output complex codes, providing students with the experience of building and evaluating models from the absolute ground up is critical. By writing their own loops and observing the accumulation of microscopic errors, students develop the "error-detecting objectivity" and design confidence required in the AI era.
 
-While engaging in an extended dialogue with a generative AI for this project, I realized that reviewing the historical positioning of numerical analysis—specifically the Euler and Runge–Kutta methods and the central difference method (Störmer–Verlet method)—offers fascinating insights. It was a profound learning experience for me to trace how our predecessors, from the era of paper and pencil to modern computers, exercised their ingenuity under various constraints to reach where we are today. I have added these reflections to the repository. While the content might be challenging for incoming first-year students, I hope it serves as a valuable reference. This GitHub content, V.1.0.3, has received important corrections and additions with the help of Claude Opus 5.5. Because verification showed that V.1.0.2 contained errors and unsupported anecdotes, especially in its historical descriptions, they have been revised on the basis of primary sources (see the note at the beginning of Chapter 6). The technical descriptions have also become more precise.
+While engaging in an extended dialogue with a generative AI for this project, I realized that reviewing the historical positioning of numerical analysis—specifically the Euler and Runge–Kutta methods and the central difference method (Störmer–Verlet method)—offers fascinating insights. It was a profound learning experience for me to trace how our predecessors, from the era of paper and pencil to modern computers, exercised their ingenuity under various constraints to reach where we are today. I have added these reflections to the repository. While the content might be challenging for incoming first-year students, I hope it serves as a valuable reference. This GitHub content, V.1.0.4, has received important corrections and additions with the help of Claude Opus 5.5. Because verification showed that V.1.0.2 contained errors and unsupported anecdotes, especially in its historical descriptions, they have been revised on the basis of primary sources (see the note at the beginning of Chapter 6). The technical descriptions have also become more precise.
 
 ## 1.3 Repository Structure and Contents
 
@@ -109,7 +109,8 @@ If you use or reference the program codes, instructional materials, or the web s
 
 [![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218)  DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
-This persistent DOI automatically resolves to the latest version; as of October 8, 2026, it resolves to V.1.0.3 (DOI: [10.5281/zenodo.23232555](https://doi.org/10.5281/zenodo.23232555)).
+This persistent DOI automatically resolves to the latest version. 
+**Note:** If you wish to cite or refer to other specific versions, please check the GitHub Releases page or the "Versions" section on Zenodo.
 
 ## References
 

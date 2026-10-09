@@ -1,4 +1,4 @@
-# 5. Educational Significance and Expansion into Real-World Applications & Other Fields
+# 5. Educational Significance and Expansion into Real-World Applications & Other Fields V.1.0.4
 
 ## 5.1 Introduction
 
@@ -88,7 +88,7 @@ Parts of the structure and explanations within this document are based on text o
 
 `[8]`: [Ministry of Education, Culture, Sports, Science and Technology, Japan "Teaching Materials for High School Informatics Teachers 'Informatics I' (Main Volume)", Chapter 3 (2020) pp. 118-123](https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf).
 
-## Repository Structure and Contents
+## Repository Structure and Links
 
 * **[README_en.md](README_en.md)**
 * **[index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**

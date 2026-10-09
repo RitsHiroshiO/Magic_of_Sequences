@@ -1,4 +1,4 @@
-# 3. Basic Explanation: Magic of Sequences (Numerical Experiments of Simple Harmonic and Damped Oscillations)
+# 3. Basic Explanation: Magic of Sequences (Numerical Experiments of Simple Harmonic and Damped Oscillations) V.1.0.4
 
 ## 3.1 Revealing the "Magic of Sequences": Overview of the MATLAB Live Script (with Python code)
 
@@ -432,7 +432,7 @@ If you use or reference the program codes or instructional materials in this Git
 
 [![DOI](zenodo.22250218.png)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
-This persistent DOI automatically resolves to the latest version; as of October 8, 2026, it resolves to V.1.0.3 (DOI: [10.5281/zenodo.23232555](https://doi.org/10.5281/zenodo.23232555)).
+This persistent DOI automatically resolves to the latest version.
 
 
 ## References and Notes
@@ -464,7 +464,7 @@ This persistent DOI automatically resolves to the latest version; as of October 
 
 `[12]`: [A. Cromer, "Stable solutions using the Euler approximation", *Am. J. Phys.* **49** (1981) 455–459](https://doi.org/10.1119/1.12478). In this method (the Euler–Cromer method), the velocity is updated first, and the position is then advanced with the new velocity. Rewritten in terms of the position only, it gives the same equation as the recurrence relation of the "Magic of Sequences", $u_n = a u_{n-1} - u_{n-2}$.
 
-## Repository Structure and Contents
+## Repository Structure and Links
 
 * **[README_en.md](README_en.md)**
 * **[index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**

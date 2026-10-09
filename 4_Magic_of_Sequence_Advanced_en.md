@@ -1,10 +1,10 @@
-# 4. Advanced Analysis: Characteristic Equations and Coefficient Derivation via Finite Difference Approximation
+# 4. Advanced Analysis: Characteristic Equations and Coefficient Derivation via Finite Difference Approximation V.1.0.4
 
 ## 4.1 Introduction
 
 As of July 2026, processing specific ranges of numerical arrays from 1D sequences to 2D matrices using consistent local rules and sliding windows has become a widely implemented technique. This technology is commonly used in modern smartphones.
 
-This document provides a mathematically rigorous explanation of the theoretical background, analytical solutions, and numerical derivation methods for the "Magic of Sequences". It is designed for upper-level undergraduate students and researchers who have foundational knowledge in mathematical sciences, physics, digital signal processing (DSP), and computer engineering. Please find further details in typical text books `[1]`
+This document provides a mathematically rigorous explanation of the theoretical background, analytical solutions, and numerical derivation methods for the "Magic of Sequences". It is designed for upper-level undergraduate students and researchers who have foundational knowledge in mathematical sciences, physics, digital signal processing (DSP), and computer engineering. Please find further details in typical text books `[1]`.
 
 In engineering terms, the process of solving the 3-term linear recurrence relation (a 2nd-order linear constant-coefficient finite difference equation) in this repository directly corresponds to **analyzing the pole-placement of a "Transfer Function" and evaluating the impulse response in DSP**.
 
@@ -199,7 +199,7 @@ The mathematical derivation processes and explanations recorded in this document
 
 `[2]`: [G. Benettin, A. Giorgilli, "On the Hamiltonian interpolation of near-to-the identity symplectic mappings with application to symplectic integration algorithms", *J. Stat. Phys.* **74** (1994) 1117–1143](https://doi.org/10.1007/BF02188219) / E. Hairer, C. Lubich, G. Wanner, *Geometric Numerical Integration*, 2nd ed. (Springer, 2006), Chapter IX / [E. Hairer, C. Lubich, G. Wanner, "Geometric numerical integration illustrated by the Störmer–Verlet method", *Acta Numerica* **12** (2003) 399–450](https://doi.org/10.1017/S0962492902000144).
 
-## Repository Structure and Contents
+## Repository Structure and Links
 
 * **[README_en.md](README_en.md)**
 * **[index_en.html](https://ritshiroshio.github.io/Magic_of_Sequences/index_en.html)**

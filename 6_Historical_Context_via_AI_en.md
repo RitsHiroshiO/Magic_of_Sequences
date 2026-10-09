@@ -1,4 +1,4 @@
-# 6. Historical Background Learned from Generative AI
+# 6. Historical Background Learned from Generative AI V.1.0.4
 
 ## 6.1 Introduction
 
