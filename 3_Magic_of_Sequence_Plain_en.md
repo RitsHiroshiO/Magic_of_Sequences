@@ -433,7 +433,7 @@ If you use or reference the program codes or instructional materials in this Git
 [![DOI](zenodo.22250218.svg)](https://doi.org/10.5281/zenodo.22250218) DOI: [https://doi.org/10.5281/zenodo.22250218](https://doi.org/10.5281/zenodo.22250218)
 
 This persistent DOI automatically resolves to the latest version.
-
+**Note:** If you wish to cite or refer to other specific versions, please check the GitHub Releases page or the "Versions" section on Zenodo.
 
 ## References and Notes
 
