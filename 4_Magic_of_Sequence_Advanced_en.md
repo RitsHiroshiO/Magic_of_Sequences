@@ -103,8 +103,7 @@ Figure 6 in Chapter 3 shows the case of $\Delta t=0.1$ and $a=1.99$; even after 
 
 $$
 \begin{bmatrix} u_{n+1} \\ u_n \end{bmatrix}
-=
-\begin{bmatrix} a & -b \\ 1 & 0 \end{bmatrix}
+= \begin{bmatrix} a & -b \\ 1 & 0 \end{bmatrix}
 \begin{bmatrix} u_n \\ u_{n-1} \end{bmatrix}
 $$
 
