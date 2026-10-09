@@ -105,9 +105,7 @@ $$
 **（専門的な説明）** 漸化式 $u_{n+1} = a u_n - b u_{n-1}$ を，連続する2項の組 $(u_n, u_{n-1})$ を1ステップ進める写像とみなすと，
 
 $$
-\begin{bmatrix} u_{n+1} \\ u_n \end{bmatrix}
-= \begin{bmatrix} a & -b \\ 1 & 0 \end{bmatrix}
-\begin{bmatrix} u_n \\ u_{n-1} \end{bmatrix}
+\begin{bmatrix} u_{n+1} \\\\ u_n \end{bmatrix} = \begin{bmatrix} a & -b \\\\ 1 & 0 \end{bmatrix} \begin{bmatrix} u_n \\\\ u_{n-1} \end{bmatrix}
 $$
 
 と書けます．この行列の行列式は $b$ です．したがって $b=1$ のとき，この写像は（位置と速度に対応する）2次元の平面上で面積を保存します．1自由度の系では，面積保存はシンプレクティック性と同じ意味です．
