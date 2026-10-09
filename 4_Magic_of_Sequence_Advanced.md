@@ -106,8 +106,7 @@ $$
 
 $$
 \begin{bmatrix} u_{n+1} \\ u_n \end{bmatrix}
-=
-\begin{bmatrix} a & -b \\ 1 & 0 \end{bmatrix}
+= \begin{bmatrix} a & -b \\ 1 & 0 \end{bmatrix}
 \begin{bmatrix} u_n \\ u_{n-1} \end{bmatrix}
 $$
 
